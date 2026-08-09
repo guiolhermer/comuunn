@@ -256,6 +256,14 @@ a {
   margin: 0 0 12px;
 }
 
+.post-body img {
+  max-width: 100%;
+  border: 3px dashed var(--ink);
+  border-radius: 12px;
+  margin: 12px 0;
+  display: block;
+}
+
 /* ---------- rodapé de widgets ---------- */
 .widgets-row {
   display: flex;
