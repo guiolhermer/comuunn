@@ -1,6 +1,6 @@
 title: comuunn
 description: "um caderno aberto na internet"
-baseurl: "/comuunn"
+baseurl: ""
 permalink: /diario/:title/
 markdown: kramdown
 
