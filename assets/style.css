@@ -312,7 +312,7 @@ a:hover {
 .counter-card {
   min-height: auto; /* Remove alturas mínimas antigas que possam estar esticando a caixa */
   padding: 10px 15px; /* Reduz o espaçamento interno superior e inferior */
-  align-self: flex-start; /* Impede que a caixa estique até o tamanho dos vizinhos */
+  align-self: flex-end; /* Impede que a caixa estique até o tamanho dos vizinhos */
 }
 
 .cliques-grid {
