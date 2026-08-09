@@ -1,0 +1,10 @@
+title: comuunn
+description: "um caderno aberto na internet"
+permalink: /diario/:title/
+markdown: kramdown
+
+# pastas e arquivos que o Jekyll deve ignorar ao publicar
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
