@@ -45,7 +45,7 @@ a {
 
 /* ---------- cartão base (usado em quase tudo) ---------- */
 .card {
-  background: var(--card-bg);
+  background: rgba(253, 248, 236, 0.6);
   border: 3px dashed var(--ink);
   border-radius: 14px;
   padding: 20px;
