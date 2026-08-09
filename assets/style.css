@@ -326,6 +326,11 @@ a:hover {
   margin-bottom: 8px;
 }
 
+.counter-card {
+  min-height: auto; /* Remove alturas mínimas antigas que possam estar esticando a caixa */
+  padding: 10px 15px; /* Reduz o espaçamento interno superior e inferior */
+}
+
 .cliques-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
