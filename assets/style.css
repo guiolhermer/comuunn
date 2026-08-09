@@ -11,6 +11,7 @@
   --ink: #1a1a1a;
   --card-bg: #fdf8ec;
   --red: #c0392b;
+  --blue: #2a5db0;
   --pink: #d4537e;
   --line: 18px;
 }
@@ -40,6 +41,11 @@ body {
 
 a {
   color: var(--ink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
   text-decoration: underline;
 }
 
