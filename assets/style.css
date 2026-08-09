@@ -185,24 +185,7 @@ a:hover {
 }
 
 /* ---------- humor do dia ---------- */
-.widget-title {
-  font-family: 'Caveat', cursive;
-  font-size: 22px;
-  margin: 0 0 10px;
-  color: var(--red);
-}
-
-.mood-row {
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  border-bottom: 1px dotted var(--ink);
-  padding: 4px 0;
-}
-
-.mood-label {
-  opacity: 0.7;
-}
+/* EXCLUÍDO */
 
 /* ---------- calendário ---------- */
 .calendar-grid {
