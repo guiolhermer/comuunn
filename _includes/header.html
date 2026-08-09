@@ -1,13 +1,13 @@
 <header class="site-header card">
-  <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
+  <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
   <p class="site-tagline">{{ site.description }}</p>
   <nav class="site-nav">
-    <a href="/">início</a>
+    <a href="{{ '/' | relative_url }}">início</a>
     <span class="dot">•</span>
-    <a href="/#diario">diário</a>
+    <a href="{{ '/#diario' | relative_url }}">diário</a>
     <span class="dot">•</span>
-    <a href="/#sobre">sobre</a>
+    <a href="{{ '/#sobre' | relative_url }}">sobre</a>
     <span class="dot">•</span>
-    <a href="/#links">links</a>
+    <a href="{{ '/#links' | relative_url }}">links</a>
   </nav>
 </header>
