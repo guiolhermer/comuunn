@@ -141,6 +141,11 @@ a:hover {
 }
 
 .main-content {
+}
+
+{
+.post-card,
+.updates-card,
   overflow: hidden;
 }
 
