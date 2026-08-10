@@ -126,10 +126,10 @@ a:hover {
 
 /* ---------- layout de duas colunas ---------- */
 .layout {
-  display: block
+  display: block;
 }
 
-.layout: ::after {
+.layout::after {
   content: "";
   display: block;
   clear: both;
@@ -143,8 +143,7 @@ a:hover {
 .main-content {
 }
 
-{
-.post-card,
+.post-card {
 .updates-card,
   overflow: hidden;
 }
