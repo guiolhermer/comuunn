@@ -134,6 +134,7 @@ a:hover {
   display: block;
   clear: both;
 }
+
 .sidebar {
   float: left;
   width: 260px;
@@ -143,8 +144,8 @@ a:hover {
 .main-content {
 }
 
-.post-card {
-.updates-card,
+.post-card,
+.updates-card {
   overflow: hidden;
 }
 
