@@ -222,6 +222,15 @@ a:hover {
 /* ---------- updates e posts ---------- */
 
 /* ----------- janela de posts ----------*/
+
+.titulo-janela-blog {
+  margin-top: 0px;
+  maegin-bottom: -8px;
+  passing-left: 8px;
+  position: relative;
+  z-index: 5;
+}
+
 .janela-de-posts {
   max-height: 400px;
   overflow-y: auto;
