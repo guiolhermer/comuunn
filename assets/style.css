@@ -138,10 +138,8 @@ a:hover {
 }
 
 .sidebar {
-  float: left;
   width: 260px;
   flex-shrink: 0;
-  margin-right: 24px;
 }
 
 .main-content {
