@@ -217,6 +217,13 @@ a:hover {
 }
 
 /* ---------- updates e posts ---------- */
+
+/* ----------- janela de posts ----------*/
+.janela-de-posts {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px; /* Espaço para a barra de rolagem */
+}
 .updates-list {
   list-style: none;
   margin: 0;
