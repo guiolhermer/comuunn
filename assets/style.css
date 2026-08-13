@@ -223,10 +223,10 @@ a:hover {
 
 /* ----------- janela de posts ----------*/
 
-.titulo-janela-blog {
+.título-janela-blog {
   margin-top: 0px;
-  maegin-bottom: -8px;
-  passing-left: 8px;
+  margin-bottom: -8px;
+  padding-left: 8px;
   position: relative;
   z-index: 5;
 }
