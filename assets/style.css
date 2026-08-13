@@ -126,7 +126,9 @@ a:hover {
 
 /* ---------- layout de duas colunas ---------- */
 .layout {
-  display: block;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
 }
 
 .layout::after {
@@ -138,10 +140,13 @@ a:hover {
 .sidebar {
   float: left;
   width: 260px;
+  flex-shrink: 0;
   margin-right: 24px;
 }
 
 .main-content {
+  flex: 1;
+  min-width: 0;
 }
 
 .post-card,
@@ -361,8 +366,11 @@ a:hover {
     font-size: 46px;
   }
   .layout {
-    float: none;
-    width: 100;
-    margin-right: 0;
+    flex-direction: column;
   }
+
+.sidebar {
+  width: 100%
+}
+
 }
