@@ -36,15 +36,15 @@ layout: null
       <!-- janela de posts -->
       </div>
         <div class=" janela-de-posts">
-           <div class="título de janela de posts">bloggo</div> /* -------- Título de posts -------- */
-           {% for post in site.posts %}
-            <article class="card post-card">
-              <p class="post-date">{{ post.date | date: "%d de %B, %Y" }}</p>
-              <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <p class="post-body">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-            <p><a href="{{ post.url }}">continuar lendo &rarr;</a></p>
-         </article>
-        {% endfor %} 
+            <div class="título de janela de posts">bloggo</div> <!-- Título de posts -->
+              {% for post in site.posts %}
+               <article class="card post-card">
+                <p class="post-date">{{ post.date | date: "%d de %B, %Y" }}</p>
+                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p class="post-body">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+                <p><a href="{{ post.url }}">continuar lendo &rarr;</a></p>
+                </article>
+              {% endfor %} 
        </div>
 
       
