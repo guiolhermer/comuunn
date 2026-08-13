@@ -220,7 +220,6 @@ a:hover {
 
 /* ----------- janela de posts ----------*/
 .janela-de-posts {
-  box-shadow: dashed; var(--ink)
   max-height: 400px;
   overflow-y: auto;
   padding: 10px;
