@@ -222,7 +222,10 @@ a:hover {
 .janela-de-posts {
   max-height: 400px;
   overflow-y: auto;
-  padding-right: 10px; /* Espaço para a barra de rolagem */
+  padding: 10px;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-bottom: 3px;
 }
 .updates-list {
   list-style: none;
