@@ -223,10 +223,6 @@ a:hover {
 
 /* ----------- janela de posts ----------*/
 
-.updates-card {
- margin-bottom: 8px;
-}
-
 .titulo-janela-blog {
   margin-top: 0px;
   margin-bottom: -8px;
@@ -242,6 +238,10 @@ a:hover {
   padding-right: 3px;
   padding-left: 3px;
   padding-bottom: 3px;
+}
+
+.updates-card {
+ margin-bottom: 8px;
 }
 
 .updates-list {
