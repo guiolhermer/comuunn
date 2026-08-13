@@ -34,10 +34,9 @@ layout: null
       </div>
 
       <!-- janela de posts -->
-      <div class="título de janela de posts">bloggo</div> /* Título de posts */
-
       </div>
         <div class=" janela-de-posts">
+           <div class="título de janela de posts">bloggo</div> /* -------- Título de posts -------- */
            {% for post in site.posts %}
             <article class="card post-card">
               <p class="post-date">{{ post.date | date: "%d de %B, %Y" }}</p>
