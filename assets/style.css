@@ -226,8 +226,7 @@ a:hover {
 .titulo-janela-blog {
   display: inline-block;
   background: var(--pink);
-  font-family: 'Caveat', cursive;
-  margin: 0 0 -18px 20px;
+  margin: 0 0 -26px 20px;
   padding: 2px 14px;
   font-size: 26px;
   position: relative;
