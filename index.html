@@ -24,15 +24,6 @@ layout: null
 
     <main class="main-content" id="diario">
 
-      <div class="card updates-card">
-        <p class="widget-title">últimas atualizações</p>
-        <ul class="updates-list">
-          {% for post in site.posts limit:5 %}
-          <li><span class="update-date">{{ post.date | date: "%d/%b" }}</span> {{ post.title }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
       <!-- janela de posts -->
 
         <h2 class="titulo-janela-blog">Bloggo</h2>
@@ -62,3 +53,15 @@ layout: null
 
 </body>
 </html>
+
+<!-- descarte de atualização de postagens do blog
+ 
+<div class="card updates-card">
+        <p class="widget-title">últimas atualizações</p>
+        <ul class="updates-list">
+          {% for post in site.posts limit:5 %}
+          <li><span class="update-date">{{ post.date | date: "%d/%b" }}</span> {{ post.title }}</li>
+          {% endfor %}
+        </ul>
+      </div> */
+    -->
