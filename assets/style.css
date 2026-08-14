@@ -104,7 +104,7 @@ a:hover {
 }
 
 .site-tagline {
-  margin: 0px 0 16px;
+  margin: 0 0 0 0;
   font-size: 14px;
   color: var(--ink);
   opacity: 0.75;
