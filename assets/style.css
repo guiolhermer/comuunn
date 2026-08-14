@@ -96,8 +96,8 @@ a:hover {
 }
 
 .site-title {
-  font-family: 'Caveat', cursive;
-  font-size: 64px;
+  font-family: 'Special Elite', monospace;
+  font-size: 100px;
   font-weight: 700;
   margin: 0;
   color: var(--red);
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .profile-name {
-  font-family: 'Caveat', cursive;
+  font-family: 'Special Elite', monospace;
   font-size: 24px;
   margin: 0 0 6px;
 }
@@ -183,7 +183,7 @@ a:hover {
 }
 
 .says-label {
-  font-family: 'Caveat', cursive;
+  font-family: 'Special Elite', monospace;
   font-size: 22px;
   color: var(--pink);
   margin: 0 0 8px;
