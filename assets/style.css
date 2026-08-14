@@ -24,9 +24,6 @@ html, body {
 
 body {
   background-color: #ededed;
-  background-image:
-    repeating-linear-gradient(0deg, rgba(0,0,0,0.18) 0px, rgba(0,0,0,0.18) 1px, transparent 1px, transparent var(--line)),
-    repeating-linear-gradient(90deg, rgba(0,0,0,0.18) 0px, rgba(0,0,0,0.18) 1px, transparent 1px, transparent var(--line));
   background-attachment: fixed;
   color: var(--ink);
   font-family: 'Special Elite', monospace;
