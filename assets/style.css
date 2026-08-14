@@ -100,7 +100,7 @@ a:hover {
   font-family: 'Special Elite', monospace;
   font-size: 100px;
   font-weight: 700;
-  line-height: 0.8;
+  line-height: 2;
   margin: 0 0 0 0;
   color: var(--red);
 }
