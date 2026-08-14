@@ -49,9 +49,7 @@ a:hover {
 
 /* ---------- cartão base (usado em quase tudo) ---------- */
 .card {
-  background: rgba(253, 248, 236, 0.6);
-  border: 3px dashed var(--ink);
-  border-radius: 14px;
+  background: transparent;
   padding: 20px;
   margin-bottom: 24px;
   position: relative;
@@ -65,27 +63,6 @@ a:hover {
   transform: rotate(0.5deg);
 }
 
-/* ---------- coelhinhos de canto ---------- */
-.bunny-corners::before,
-.bunny-corners::after {
-  content: "";
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  background-color: var(--red);
-  clip-path: polygon(35% 0%, 45% 0%, 45% 45%, 55% 45%, 55% 0%, 65% 0%, 65% 55%, 100% 55%, 100% 100%, 0% 100%, 0% 55%, 35% 55%);
-}
-
-.bunny-corners::before {
-  top: -13px;
-  left: -13px;
-}
-
-.bunny-corners::after {
-  bottom: -13px;
-  right: -13px;
-  transform: rotate(180deg);
-}
 
 /* ---------- cabeçalho ---------- */
 .site-header {
