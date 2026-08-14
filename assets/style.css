@@ -230,7 +230,7 @@ a:hover {
   font-size: 26px;
   margin: 0 0 0 20px;
   position: relative;
-  top: -14px;
+  top: 14px;
   z-index: 5;
 }
 
