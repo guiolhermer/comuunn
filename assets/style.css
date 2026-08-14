@@ -93,18 +93,19 @@ a:hover {
 .site-header {
   text-align: center;
   transform: none;
+  margin: 0;
 }
 
 .site-title {
   font-family: 'Special Elite', monospace;
   font-size: 100px;
   font-weight: 700;
-  margin: 0;
+  margin: 0 0 16px 0;
   color: var(--red);
 }
 
 .site-tagline {
-  margin: 0 0 0 0;
+  margin: 0 0 16px 0;
   font-size: 14px;
   color: var(--ink);
   opacity: 0.75;
