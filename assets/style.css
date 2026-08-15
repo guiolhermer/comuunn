@@ -310,10 +310,6 @@ a:hover {
   padding: 0 18px;
 }
 
-.home-columns > * + * {
-  border-left: 1px solid var(--ink);
-}
-
 .home-nav {
   width: 140px;
   flex-shrink: 0;
@@ -351,14 +347,6 @@ a:hover {
   margin: 0 0 24px;
 }
 
-.coming-soon-box {
-  border: 1px dashed var(--branco-escuro);
-  padding: 14px;
-  margin-bottom: 24px;
-  font-size: 12px;
-  opacity: 0.6;
-}
-
 .aside-card {
   border: 1px solid var(--ink);
   padding: 12px;
@@ -366,15 +354,13 @@ a:hover {
   font-size: 13px;
 }
 
+/* ---------- responsivo da home ---------- */
+
 @media (max-width: 640px) {
   .home-columns {
     flex-direction: column;
   }
-  .home-columns > * + * {
-    border-left: none;
-    border-top: 1px solid var(--ink);
-    padding-top: 16px;
-  }
+
   .home-nav, .home-aside {
     width: 100%;
   }
