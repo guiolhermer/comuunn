@@ -240,7 +240,7 @@ a:hover {
   font-family: 'Caveat', cursive;
   font-size: 22px;
   margin: 0 0 8px;
-  color: var(--red);
+  color: var(--ink);
 }
 
 .counter-display {
