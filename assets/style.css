@@ -302,6 +302,7 @@ a:hover {
 
 .home-columns > * {
   padding: 0 18px;
+  text-transform: uppercase;
 }
 
 .home-nav {
