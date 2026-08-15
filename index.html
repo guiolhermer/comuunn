@@ -7,61 +7,62 @@ layout: null
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ site.title }}</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
 
 <div class="page-wrap">
 
-  {% include header.html %}
+  <header class="home-header">
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <p class="home-quote">{{ site.description }}</p>
+  </header>
 
-  <div class="layout">
+  <div class="home-columns">
 
-    {% include sidebar.html %}
+    <nav class="home-nav">
+      <p class="section-label">navegar</p>
+      <ul class="nav-list">
+        <li><a href="{{ '/' | relative_url }}">home</a></li>
+        <li><a href="{{ '/diario/' | relative_url }}">hard feelings</a></li>
+        <li><a href="{{ '/comuunn/' | relative_url }}">comuunn</a></li>
+        <li><a href="{{ '/galeria/' | relative_url }}">art gallery</a></li>
+        <li><a href="{{ '/sobre/' | relative_url }}">about me</a></li>
+      </ul>
+    </nav>
 
-    <main class="main-content" id="diario">
+    <main class="home-main">
+      <p class="section-label">about this</p>
+      <p class="about-text">{{ site.description }}</p>
 
-      <!-- janela de posts -->
+      <p class="section-label">billboards</p>
+      <div class="coming-soon-box">
+        posters e vídeos em breve
+      </div>
 
-        <h2 class="titulo-janela-blog">Bloggo</h2>
-        <div class=" janela-de-posts">
-
-         {% for post in site.posts %}
-
-            <article class="card post-card">
-              <p class="post-date">{{ post.date | date: "%d de %B, %Y" }}</p>
-              <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <p class="post-body">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-              <p><a href="{{ post.url }}">continuar lendo &rarr;</a></p>
-            </article>
-      
-         {% endfor %} 
-       </div>
-
-      
-
+      <p class="section-label">comuunn</p>
+      <div class="coming-soon-box">
+        registro da beleza da trivialidade — em breve
+      </div>
     </main>
 
-  </div>
+    <aside class="home-aside">
+      <p class="section-label">latest feelings</p>
+      <div class="aside-card">
+        <p class="says-label">comuunn diz...</p>
+        <p class="says-text">algum recado curto por aqui.</p>
+      </div>
 
-  {% include footer.html %}
+      <p class="section-label">spotify</p>
+      <div class="aside-card">
+        tocando agora — em breve
+      </div>
+    </aside>
+
+  </div>
 
 </div>
 
 </body>
 </html>
-
-<!-- descarte de atualização de postagens do blog
- 
-<div class="card updates-card">
-        <p class="widget-title">últimas atualizações</p>
-        <ul class="updates-list">
-          {% for post in site.posts limit:5 %}
-          <li><span class="update-date">{{ post.date | date: "%d/%b" }}</span> {{ post.title }}</li>
-          {% endfor %}
-        </ul>
-      </div> */
-    -->
