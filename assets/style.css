@@ -124,7 +124,7 @@ a:hover {
   overflow: hidden;
 }
 
-/* ---------- perfil e says ---------- */
+/* ---------- perfil e dizeres ---------- */
 .profile-card {
   text-align: center;
 }
@@ -140,15 +140,15 @@ a:hover {
   margin: 0;
 }
 
-.says-label {
+.título-dizer-esquerda {
   font-family: 'Special Elite', monospace;
   text-align: left;
   font-size: 22px;
-  color: var(--pink);
+  color: var(--ink);
   margin: 0 0 8px;
 }
 
-.says-text {
+.texto-dizer-esquerda {
   font-size: 13px;
   margin: 0;
 }
@@ -320,7 +320,7 @@ a:hover {
   flex-shrink: 0;
 }
 
-.section-label {
+.section-título {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -336,14 +336,13 @@ a:hover {
   line-height: 2.1;
 }
 
-.about-text {
+.about-this-text {
   font-size: 14px;
   line-height: 1.7;
   margin: 0 0 24px;
 }
 
-.aside-card {
-  border: 1px solid var(--ink);
+.coluna-esquerda {
   padding: 12px;
   margin-bottom: 18px;
   font-size: 13px;
