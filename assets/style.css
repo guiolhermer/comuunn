@@ -298,11 +298,11 @@ a:hover {
   gap: 0;
   margin-top: 20px;
   align-items: flex-start;
+  text-transform: uppercase;
 }
 
 .home-columns > * {
   padding: 0 18px;
-  text-transform: uppercase;
 }
 
 .home-nav {
