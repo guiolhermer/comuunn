@@ -73,7 +73,6 @@ a:hover {
   gap: 0;
   margin-top: 20px;
   align-items: flex-start;
-  text-transform: uppercase;
 }
 
 .home-columns > * {
@@ -172,7 +171,6 @@ a:hover {
 .texto-post,
 .corpo-post {
   font-size: 14px;
-  text-transform: capitalize;
   line-height: 1.7;
   margin: 0 0 10px;
 }
