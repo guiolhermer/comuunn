@@ -150,7 +150,7 @@ a:hover {
 .texto-dizer-esquerda {
   font-size: 13px;
   margin: 0;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 /* ---------- humor do dia ---------- */
@@ -305,7 +305,7 @@ a:hover {
   padding: 0 18px;
 }
 
-.home-nav {
+.coluna-navegacao {
   width: 140px;
   flex-shrink: 0;
 }
@@ -315,7 +315,7 @@ a:hover {
   min-width: 0;
 }
 
-.home-aside {
+.coluna-geral-esquerda {
   width: 200px;
   flex-shrink: 0;
 }
@@ -328,7 +328,7 @@ a:hover {
   margin: 0 0 6px;
 }
 
-.nav-list {
+.lista-navegacao {
   list-style: none;
   padding: 0;
   margin: 0 0 20px;
