@@ -86,7 +86,7 @@ a:hover {
 
 .home-main {
   flex: 1;
-  min-width: 0;
+  min-width: 250;
 }
 
 .coluna-geral-esquerda {
@@ -112,7 +112,7 @@ a:hover {
 
 .about-this-text {
   font-size: 12px;
-  text-transform: capitalize;
+  text-transform: lowercase;
   line-height: 1.7;
   margin: 0 0 24px;
 }
