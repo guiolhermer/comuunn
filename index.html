@@ -14,23 +14,11 @@ layout: null
 
 <div class="page-wrap">
 
-  <header class="home-header">
-    <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <p class="home-quote">{{ site.description }}</p>
-  </header>
+  {% include masthead.html %}
 
   <div class="home-columns">
 
-    <nav class="coluna-navegacao">
-      <p class="nome-da-seção-navegacao">navegar</p>
-      <ul class="lista-navegacao">
-        <li><a href="{{ '/' | relative_url }}">home</a></li>
-        <li><a href="{{ '/diario/' | relative_url }}">hard feelings</a></li>
-        <li><a href="{{ '/comuunn/' | relative_url }}">comuunn</a></li>
-        <li><a href="{{ '/galeria/' | relative_url }}">art gallery</a></li>
-        <li><a href="{{ '/sobre/' | relative_url }}">about me</a></li>
-      </ul>
-    </nav>
+    {% include nav-coluna.html %}
 
     <main class="home-main">
       <p class="about-this-title">about this</p>
