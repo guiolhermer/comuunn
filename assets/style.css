@@ -323,6 +323,14 @@ a:hover {
   margin: 0;
 }
 
+.titulo-dizer-esquerda {
+  font-family: 'Special Elite', proportional;
+  text-align: left;
+  font-size: 22px;
+  color: var(--ink);
+  margin:
+}
+
 .about-this-title {
   font-size: 11px;
   text-transform: uppercase;
