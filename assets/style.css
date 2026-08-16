@@ -357,6 +357,50 @@ a:hover {
   font-size: 13px;
 }
 
+/* ---------- lista de posts do hard feelings ---------- */
+.item-post {
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.item-post:last-child {
+  border-bottom: none;
+}
+
+.data-post {
+  font-size: 12px;
+  opacity: 0.6;
+  margin: 0 0 4px;
+}
+
+.titulo-post {
+  font-family: 'Special Elite', monospace;
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+.titulo-post a {
+  color: var(--ink);
+}
+
+.texto-post,
+.corpo-post {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+
+.link-continuar {
+  font-size: 13px;
+}
+
+.corpo-post img {
+  max-width: 100%;
+  margin: 12px 0;
+  display: block;
+}
+
 /* ---------- responsivo da home ---------- */
 
 @media (max-width: 640px) {
