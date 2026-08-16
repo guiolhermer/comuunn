@@ -326,7 +326,8 @@ a:hover {
 .titulo-dizer-esquerda {
   font-family: 'Special Elite', proportional;
   text-align: left;
-  font-size: 22px;
+  font-size: 16px;
+  margin: 0;
   color: var(--ink);
   margin:
 }
