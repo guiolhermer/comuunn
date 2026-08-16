@@ -124,6 +124,27 @@ a:hover {
   text-transform: uppercase;
 }
 
+.lista-feelings { 
+  max-height: 220px; 
+  overflow-y: auto; 
+  padding-right: 6px; 
+} 
+
+.feeling-item { 
+  padding: 10px 0; 
+  border-bottom: 1px dashed var(--ink); 
+} 
+
+.feeling-item:last-child { 
+  border-bottom: none; 
+} 
+
+.data-feeling { 
+  font-size: 11px; 
+  opacity: 0.6; 
+  margin: 0 0 4px; 
+} 
+
 .coluna-esquerda {
   padding: 12px;
   margin-bottom: 18px;
