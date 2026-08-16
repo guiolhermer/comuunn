@@ -41,236 +41,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ---------- cartão base (usado em quase tudo) ---------- */
-.card {
-  background: transparent;
-  padding: 20px;
-  margin-bottom: 24px;
-  position: relative;
-}
-
-.card:nth-of-type(odd) {
-  transform: rotate(-0.6deg);
-}
-
-.card:nth-of-type(even) {
-  transform: rotate(0.5deg);
-}
-
-
-/* ---------- cabeçalho ---------- */
-.site-header {
-  text-align: center;
-  transform: none;
-  margin: 0;
-}
-
+/* ---------- título do site (usado no masthead da home e dos posts) ---------- */
 .site-title {
   font-family: 'Special Elite', monospace;
   font-size: 100px;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 0 0;
-  color: var(--red);
-}
-
-.site-tagline {
-  margin: 0 0 8px 0;
-  font-size: 14px;
-  color: var(--ink);
-}
-
-.site-nav {
-  font-size: 14px;
-  margin: 0 0 8px 0;
-}
-
-.site-nav a {
-  text-decoration: none;
-  border-bottom: 1px dashed var(--ink);
-}
-
-.site-nav .dot {
-  margin: 0 10px;
-  color: var(--red);
-}
-
-/* ---------- layout de duas colunas ---------- */
-.layout {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-}
-
-.layout::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.sidebar {
-  width: 260px;
-  flex-shrink: 0;
-}
-
-.main-content {
-  flex: 1;
-  min-width: 0;
-}
-
-.post-card,
-.updates-card {
-  overflow: hidden;
-}
-
-/* ---------- perfil e dizeres ---------- */
-.profile-card {
-  text-align: center;
-}
-
-.profile-name {
-  font-family: 'Special Elite', monospace;
-  font-size: 24px;
-  margin: 0 0 6px;
-}
-
-.profile-blurb {
-  font-size: 13px;
   margin: 0;
-}
-
-.titulo-dizer-esquerda {
-  font-family: 'Special Elite', monospace;
-  text-align: left;
-  font-size: 22px;
-  color: var(--ink);
-  margin: 0 0 8px;
-}
-
-.texto-dizer-esquerda {
-  font-size: 13px;
-  margin: 0;
-  text-transform: lowercase;
-}
-
-/* ---------- calendário ---------- */
-.calendar-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 4px;
-  font-size: 11px;
-  text-align: center;
-}
-
-.cal-head {
-  font-weight: bold;
-  opacity: 0.6;
-}
-
-.cal-today {
-  background: var(--pink);
-  color: var(--card-bg);
-  border-radius: 50%;
-  display: inline-block;
-  width: 18px;
-}
-
-/* ---------- updates e posts ---------- */
-
-/* ----------- janela de posts ----------*/
-
-.titulo-janela-blog {
-  display: inline-block;
-  background: transparent;
-  position: relative;
-  top: 14px;
-  z-index: 5;
-}
-
-.janela-de-posts {
-  border: none;
-  max-height: 400px;
-  overflow-y: auto;
-  padding: 3px;
-  position: relative;
-}
-
-.post-date {
-  font-size: 12px;
-  opacity: 0.6;
-  margin: 0 0 4px;
-}
-
-.post-title {
-  font-family: 'Caveat', cursive;
-  font-size: 30px;
-  margin: 0 0 10px;
-}
-
-.post-body {
-  font-size: 14px;
-  margin: 0 0 12px;
-}
-
-.post-body img {
-  max-width: 100%;
-  border: 3px dashed var(--ink);
-  border-radius: 12px;
-  margin: 12px 0;
-  display: block;
-}
-
-/* ---------- rodapé de widgets ---------- */
-.visitors-caption {
-  font-size: 12px;
-  opacity: 0.7;
-  margin: 0 0 10px;
-}
-
-.visitors-title {
-  font-family: 'Caveat', cursive;
-  font-size: 22px;
-  margin: 0 0 8px;
-  color: var(--ink);
-}
-
-.counter-display {
-  font-family: 'Special Elite', monospace;
-  font-size: 28px;
-  letter-spacing: 4px;
-  background: var(--ink);
-  color: #7fff9f;
-  text-align: center;
-  padding: 6px 0;
-  border-radius: 6px;
-  margin-bottom: 8px;
-}
-
-.counter-card {
-  padding: 10px 15px; /* Reduz o espaçamento interno superior e inferior */
-}
-
-/* ---------- rodapé final ---------- */
-.footer-note {
-  text-align: center;
-  font-size: 12px;
-  opacity: 0.6;
-  margin-top: 12px;
-}
-
-/* ---------- responsivo ---------- */
-@media (max-width: 640px) {
-  .site-title {
-    font-size: 46px;
-  }
-  .layout {
-    flex-direction: column;
-  }
-
-.sidebar {
-  width: 100%
-}
-
+  color: var(--red);
 }
 
 /* ---------- cabeçalho da home ---------- */
@@ -317,17 +95,12 @@ a:hover {
   flex-shrink: 0;
 }
 
-.titulo-latest-feelings {
-  font-family: 'Special Elite', proportional;
-  font-size: 14px;
-  margin: 0;
-}
-
-.titulo-dizer-esquerda {
-  font-family: 'Special Elite', proportional;
-  text-align: left;
-  font-size: 14px;
-  color: var(--ink);
+.lista-navegacao {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 12px;
+  line-height: 2.1;
 }
 
 .about-this-title {
@@ -337,18 +110,16 @@ a:hover {
   margin: 0 0 6px;
 }
 
-.lista-navegacao {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-  font-size: 12px;
-  line-height: 2.1;
-}
-
 .about-this-text {
   font-size: 12px;
   line-height: 1.7;
   margin: 0 0 24px;
+}
+
+.titulo-latest-feelings {
+  font-family: 'Special Elite', proportional;
+  font-size: 14px;
+  margin: 0;
 }
 
 .coluna-esquerda {
@@ -357,7 +128,20 @@ a:hover {
   font-size: 13px;
 }
 
-/* ---------- lista de posts do hard feelings ---------- */
+.titulo-dizer-esquerda {
+  font-family: 'Special Elite', proportional;
+  text-align: left;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.texto-dizer-esquerda {
+  font-size: 13px;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+/* ---------- lista de posts (hard feelings) e post individual ---------- */
 .item-post {
   border-bottom: 1px solid var(--ink);
   padding-bottom: 20px;
@@ -387,7 +171,6 @@ a:hover {
 .texto-post,
 .corpo-post {
   font-size: 14px;
-  text-transform: lowercase;
   line-height: 1.7;
   margin: 0 0 10px;
 }
@@ -402,9 +185,12 @@ a:hover {
   display: block;
 }
 
-/* ---------- responsivo da home ---------- */
-
+/* ---------- responsivo ---------- */
 @media (max-width: 640px) {
+  .site-title {
+    font-size: 46px;
+  }
+
   .home-columns {
     flex-direction: column;
   }
