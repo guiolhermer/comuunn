@@ -408,7 +408,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .home-nav, .home-aside {
+  .coluna-navegacao, .coluna-geral-esquerda {
     width: 100%;
   }
 }
