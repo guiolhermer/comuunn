@@ -153,9 +153,6 @@ a:hover {
   text-transform: lowercase;
 }
 
-/* ---------- humor do dia ---------- */
-/* EXCLUÍDO */
-
 /* ---------- calendário ---------- */
 .calendar-grid {
   display: grid;
@@ -318,6 +315,12 @@ a:hover {
 .coluna-geral-esquerda {
   width: 200px;
   flex-shrink: 0;
+}
+
+.titulo-latest-feelings {
+  font-family: 'Special Elite', proportional;
+  font-size: 22px;
+  margin: 0;
 }
 
 .about-this-title {
