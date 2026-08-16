@@ -303,7 +303,7 @@ a:hover {
 }
 
 .coluna-navegacao {
-  width: 140px;
+  width: 200px;
   flex-shrink: 0;
 }
 
@@ -313,7 +313,7 @@ a:hover {
 }
 
 .coluna-geral-esquerda {
-  width: 200px;
+  width: 250px;
   flex-shrink: 0;
 }
 
