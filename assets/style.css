@@ -171,6 +171,7 @@ a:hover {
 .texto-post,
 .corpo-post {
   font-size: 14px;
+  text-transform: lowercase;
   line-height: 1.7;
   margin: 0 0 10px;
 }
