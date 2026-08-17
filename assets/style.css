@@ -115,6 +115,7 @@ a:hover {
   text-transform: lowercase;
   line-height: 1.7;
   margin: 0 0 24px;
+  white-space: pre-line;
 }
 
 .titulo-latest-feelings {
