@@ -1,9 +1,9 @@
 title: comuunn 
 tagline: "um caderno aberto na internet" 
 description: | 
-  aqui você escreve o texto grande que vai aparecer só na seção about this,
-  pode ser bem mais longo que isso,
-  quantas frases você quiser.
+  This is a space for me to observe the subline of daily life. When I was younger, naturally life hit me heart through the eyes and I wrote down to, somehow, keep that fleeting image registred. With adulthood this sensibility was lost. And I never stoped back from being an f* adult. 
+
+  Writing this code lines is my try to restore the mediocre artistic sensibility I once had. [in progress]
 baseurl: ""
 permalink: /diario/:title/
 markdown: kramdown
