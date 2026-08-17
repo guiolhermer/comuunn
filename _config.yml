@@ -1,6 +1,6 @@
 title: comuunn 
 tagline: "um caderno aberto na internet" 
-description: "|aqui você escreve o texto grande que vai aparecer só na seção about this, |pode ser bem mais longo que isso, |quantas frases você quiser."
+description: " | aqui você escreve o texto grande que vai aparecer só na seção about this, | pode ser bem mais longo que isso, | quantas frases você quiser."
 baseurl: ""
 permalink: /diario/:title/
 markdown: kramdown
