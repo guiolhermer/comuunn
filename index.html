@@ -25,12 +25,12 @@ layout: null
       <p class="about-this-text">{{ site.description }}</p>
     </main>
 
-    <aside class="coluna-geral-esquerda">
+    <aside class="coluna-geral-direita">
       <p class="titulo-latest-feelings">latest feelings</p>
       <div class="lista-feelings"> {% assign feelings = site.data.feelings | sort: 'date' | reverse %} {% for feeling in feelings %}
         <div class="feeling-item">
           <p class="data-feeling">{{ feeling.date | date: '%d/%m' }}</p>
-          <p class="texto-dizer-esquerda">{{ feeling.text }}</p>
+          <p class="texto-dizer-direita">{{ feeling.text }}</p>
         </div> {% endfor %}
       </div>
     </aside>

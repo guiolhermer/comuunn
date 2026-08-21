@@ -103,6 +103,11 @@ a:hover {
   text-transform: uppercase;
 }
 
+.botao-proprio {
+  display: block;
+  margin-top: 20px;
+}
+
 .about-this-title {
   font-size: 14px;
   text-transform: uppercase;
@@ -146,20 +151,20 @@ a:hover {
   margin: 0 0 4px; 
 } 
 
-.coluna-esquerda {
+.coluna-direita {
   padding: 12px;
   margin-bottom: 18px;
   font-size: 13px;
 }
 
-.titulo-dizer-esquerda {
+.titulo-dizer-direita {
   font-family: 'Special Elite', proportional;
   text-align: left;
   font-size: 14px;
   color: var(--ink);
 }
 
-.texto-dizer-esquerda {
+.texto-dizer-direita {
   font-size: 13px;
   margin: 0;
   text-transform: lowercase;
@@ -219,7 +224,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .coluna-navegacao, .coluna-geral-esquerda {
+  .coluna-navegacao, .coluna-geral-direita {
     width: 100%;
   }
 }
