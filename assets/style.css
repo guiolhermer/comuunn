@@ -151,20 +151,20 @@ a:hover {
   margin: 0 0 4px; 
 } 
 
-.coluna-direita {
+.coluna-esquerda {
   padding: 12px;
   margin-bottom: 18px;
   font-size: 13px;
 }
 
-.titulo-dizer-direita {
+.titulo-dizer-esquerda {
   font-family: 'Special Elite', proportional;
   text-align: left;
   font-size: 14px;
   color: var(--ink);
 }
 
-.texto-dizer-direita {
+.texto-dizer-esquerda {
   font-size: 13px;
   margin: 0;
   text-transform: lowercase;
