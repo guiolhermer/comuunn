@@ -224,7 +224,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .coluna-navegacao, .coluna-geral-direita {
+  .coluna-navegacao, .coluna-geral-esquerda {
     width: 100%;
   }
 }
