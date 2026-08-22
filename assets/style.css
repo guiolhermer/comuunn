@@ -125,8 +125,8 @@ a:hover {
   text-transform: uppercase;
 }
 
-.lista-feelings { 
-  max-height: 220px; 
+.box-feelings { 
+  max-height: 500px; 
   overflow-y: auto; 
   padding-right: 6px; 
 } 
