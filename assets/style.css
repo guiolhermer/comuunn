@@ -211,6 +211,10 @@ a:hover {
 
 /* ---------- guestbook ---------- */
 
+.guestbooks___guestbook-form-container {
+  width: 500px;
+  height: 200px;
+}
 
 
 /* ---------- responsivo ---------- */
