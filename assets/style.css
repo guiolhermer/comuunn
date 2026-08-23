@@ -231,7 +231,7 @@ a:hover {
 
 /* ---------- botao de seguir ---------- */
 .followbuttom {
-  display: inline-block;
+  display: inline;
   margin-left: auto;
 }
 
