@@ -210,7 +210,9 @@ a:hover {
 }
 
 /* ---------- guestbook ---------- */
-
+.guestbook-content {
+  font-family: Hadnjet;
+}
 
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
