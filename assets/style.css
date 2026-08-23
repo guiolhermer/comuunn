@@ -211,20 +211,10 @@ a:hover {
 
 /* ---------- guestbook ---------- */
 
-#guestbooks___guestbook-form-container {
-  width: 500px;
-  height: 200px;
-}
-
 .guestbooks___input-container {
   width: 500px;
   height: 200px;
   overflow-y: auto;
-}
-
-#guestbooks___guestbook-messages-container {
-  font-size: 12px;
-  font-family: Handjet;
 }
 
 
