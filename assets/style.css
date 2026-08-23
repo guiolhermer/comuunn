@@ -218,10 +218,12 @@ a:hover {
 
 .guestbook-message {
   background-color: var(--paper-dark);
+  margin: auto;
 }
 
 .guestbook-message-reply {
   background-color: var(--paper);
+  margin-bottom: 10px;
   margin-left: 40px;
 }
 
