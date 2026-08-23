@@ -216,6 +216,14 @@ a:hover {
   font-size: 14px;
 }
 
+.guestbook-message {
+  background: (var(--paper-dark))
+}
+
+.guestbook-message-reply {
+  background: (var(--paper))
+}
+
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
