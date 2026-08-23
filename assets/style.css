@@ -210,12 +210,7 @@ a:hover {
 }
 
 /* ---------- guestbook ---------- */
-#guestbooks___guestbook-form-container {
-  width: 200px;
-  max-height: 500px;
-  padding: 10px;
-  overflow-y: auto;
-}
+
 
 
 /* ---------- responsivo ---------- */
