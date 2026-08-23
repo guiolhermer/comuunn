@@ -217,11 +217,11 @@ a:hover {
 }
 
 .guestbook-message {
-  background-color: (var(--paper-dark))
+  background-color: var(--paper-dark);
 }
 
 .guestbook-message-reply {
-  background-color: (var(--paper))
+  background-color: var(--paper);
 }
 
 /* ---------- responsivo ---------- */
