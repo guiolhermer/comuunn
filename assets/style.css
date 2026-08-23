@@ -236,6 +236,17 @@ a:hover {
   margin-top: 5px;
 }
 
+/* ----------- letterboxd log ----------*/
+
+#letterboxd-embed-wrapper-tc {
+  margin-top: 10px;
+}
+
+.letterboxdtitulo {
+  font-size: 22px;
+  margin: 3 3 3 3;
+}
+
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
