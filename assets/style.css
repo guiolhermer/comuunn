@@ -246,6 +246,8 @@ a:hover {
   font-size: 14px;
   text-transform: uppercase;
   margin: 3 3 3 3;
+  font-weight: normal;
+  
 }
 
 /* ---------- responsivo ---------- */
