@@ -248,7 +248,17 @@ a:hover {
   text-transform: uppercase;
   margin: 3 3 3 3;
   font-weight: normal;
+}
 
+.letterboxd-embed-tc-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.letterboxd-embed-tc-poster {
+  width: 87px;
+  height: 129px;
+  
 }
 
 /* ---------- responsivo ---------- */
