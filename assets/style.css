@@ -1,6 +1,6 @@
 /* ---------- paleta e variáveis ---------- */
 :root {
-  --paper: #e8dcb5;
+  --paper: #e6e1d3;
   --paper-dark: #d9c99a;
   --ink: #1a1a1a;
   --card-bg: #fdf8ec;
@@ -222,6 +222,7 @@ a:hover {
 
 .guestbook-message-reply {
   background-color: var(--paper);
+  margin-left: 80px;
 }
 
 /* ---------- responsivo ---------- */
