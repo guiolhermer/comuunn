@@ -231,10 +231,8 @@ a:hover {
 
 /* ---------- botao de seguir ---------- */
 .followbuttom {
-  width: 100px;
-  height: 20px;
-  background-color: #c0392b;
-  text-decoration-color: antiquewhite;
+  display: inline-block;
+  margin-left: auto;
 }
 
 /* ---------- responsivo ---------- */
