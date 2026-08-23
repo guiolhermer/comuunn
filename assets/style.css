@@ -222,7 +222,7 @@ a:hover {
 
 .guestbook-message-reply {
   background-color: var(--paper);
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 /* ---------- responsivo ---------- */
