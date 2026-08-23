@@ -252,13 +252,7 @@ a:hover {
 
 .letterboxd-embed-tc-title {
   font-size: 14px;
-  font-weight: normal;
-}
-
-.letterboxd-embed-tc-poster {
-  width: 87px;
-  height: 129px;
-  
+  font-weight:lighter;
 }
 
 /* ---------- responsivo ---------- */
