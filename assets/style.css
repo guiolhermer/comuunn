@@ -218,12 +218,8 @@ a:hover {
 
 .guestbook-message {
   background-color: var(--paper-dark);
-  margin-bottom: 0px;
 }
 
-.guestbook-message:has(+ .guestbook-message-reply) {
-  margin: 0px;
-}
 
 .guestbook-message-reply {
   background-color: var(--paper);
