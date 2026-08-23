@@ -250,11 +250,6 @@ a:hover {
   font-weight: normal;
 }
 
-.letterboxd-embed-tc-title {
-  font-size: 14px;
-  font-weight:lighter;
-}
-
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
