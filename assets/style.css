@@ -243,7 +243,8 @@ a:hover {
 }
 
 .letterboxdtitulo {
-  font-size: 22px;
+  font-size: 14px;
+  text-transform: uppercase;
   margin: 3 3 3 3;
 }
 
