@@ -23,6 +23,15 @@ layout: null
     <main class="home-main">
       <p class="about-this-title">about this</p>
       <p class="about-this-text">{{ site.description }}</p>
+
+      <div id="letterboxd-embed-wrapper-tc">Loading...</div>
+          <script>
+            fetch('https://lb-embed-content.bokonon.dev?username=guiolhermer')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
+            });
+          </script>
     </main>
 
     <aside class="coluna-geral-esquerda">
