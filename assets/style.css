@@ -213,6 +213,7 @@ a:hover {
 .guestbook-content {
   font-family: Handjet;
   width: 500px;
+  font-size: 13px;
 }
 
 /* ---------- responsivo ---------- */
