@@ -209,6 +209,15 @@ a:hover {
   display: block;
 }
 
+<-- GUESTBOOK --/>
+#guestbooks___guestbook-form-container {
+  width: 200px;
+  max-height: 500px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
