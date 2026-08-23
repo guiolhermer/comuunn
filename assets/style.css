@@ -230,6 +230,11 @@ a:hover {
 }
 
 /* ---------- botao de seguir ---------- */
+.followbuttom {
+  display: inline;
+  margin-left: auto;
+  margin-top: 5px;
+}
 
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
