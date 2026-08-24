@@ -116,7 +116,6 @@ a:hover {
   line-height: 1.7;
   margin: 0 0 24px;
   white-space: pre-line;
-  border-bottom: 0.5px dotted var(--ink);
 }
 
 .titulo-latest-feelings {
@@ -251,7 +250,7 @@ a:hover {
 }
 
 #letterboxd-embed-wrapper-tc {
-  width: 600px;
+  width: 500px;
 }
 
 /* ---------- responsivo ---------- */
