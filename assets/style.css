@@ -250,6 +250,10 @@ a:hover {
   font-weight: normal;
 }
 
+#letterboxd-embed-wrapper-tc {
+  width: 200px;
+}
+
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
