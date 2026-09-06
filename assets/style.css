@@ -73,7 +73,6 @@ a:hover {
   gap: 0;
   margin-top: 20px;
   align-items: flex-start;
-  height: 600px;
 }
 
 .home-columns > * {
@@ -251,6 +250,7 @@ a:hover {
   margin: 3px;
   font-weight: normal;
   padding: 0 9px;
+  margin-bottom: 6px;
 }
 
 #letterboxd-embed-wrapper-tc {
