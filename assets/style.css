@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-image: url('../images/fabric.jpg');
+  background-image: url('assets/images/fabric.jpg');
   background-size:contain;
   background-attachment: fixed;
   color: var(--ink);
