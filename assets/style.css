@@ -242,6 +242,7 @@ a:hover {
 
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
+  background-color: var(--blue);
 }
 
 .letterboxdtitulo {
