@@ -19,8 +19,7 @@ html, body {
 }
 
 body {
-  background-image: url('/assets/images/lava.jpg');
-  background-size: cover;
+  background-color: var(--branco-escuro);
   background-attachment: fixed;
   color: var(--ink);
   font-family: 'Special Elite', monospace;
