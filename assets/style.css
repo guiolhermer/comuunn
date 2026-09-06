@@ -18,7 +18,7 @@ html, body {
 }
 
 body {
-  background-color: var(--branco-escuro);
+  background-image: url('/assets/images/background-1.png');
   background-attachment: fixed;
   color: var(--ink);
   font-family: 'Special Elite', monospace;
