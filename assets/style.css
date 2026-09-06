@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-color: var(--branco-escuro);  
+  background-color: var(--branco-escuro);
   background-size: contain;
   background-attachment: fixed;
   color: var(--ink);
