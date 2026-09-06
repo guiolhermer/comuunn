@@ -73,11 +73,11 @@ a:hover {
   gap: 0;
   margin-top: 20px;
   align-items: flex-start;
+  height: 500px;
 }
 
 .home-columns > * {
   padding: 0 9px;
-  height: 500px;
 }
 
 .coluna-navegacao {
