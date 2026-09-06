@@ -250,6 +250,7 @@ a:hover {
   text-transform: uppercase;
   margin: 3px;
   font-weight: normal;
+  padding: 0 9px;
 }
 
 #letterboxd-embed-wrapper-tc {
