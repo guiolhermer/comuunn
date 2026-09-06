@@ -3,6 +3,7 @@
   --paper: #e6e1d3;
   --paper-dark: #d9c99a;
   --ink: #1a1a1a;
+  --marrom-vermelho: #3c1000;
   --card-bg: #fdf8ec;
   --red: #c0392b;
   --blue: #2a5db0;
@@ -80,10 +81,10 @@ a:hover {
   padding: 0 9px;
   background-color: var(--paper-dark);
   box-shadow:
-    8px 0 0 0 var(--ink),
-    -8px 0 0 0 var(--ink),
-    0 8px 0 0 var(--ink),
-    0 -8px 0 0 var(--ink);
+    8px 0 0 0 var(--marrom-vermelho),
+    -8px 0 0 0 var(--marrom-vermelho),
+    0 8px 0 0 var(--marrom-vermelho),
+    0 -8px 0 0 var(--marrom-vermelho);
 }
 
 .coluna-navegacao {
@@ -248,19 +249,25 @@ a:hover {
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
   background-color: var(--paper-dark);
+  box-shadow:
+    8px 0 0 0 var(--marrom-vermelho),
+    -8px 0 0 0 var(--marrom-vermelho),
+    0 8px 0 0 var(--marrom-vermelho),
+    0 -8px 0 0 var(--marrom-vermelho);
 }
 
 .letterboxdtitulo {
   font-size: 14px;
+  width: 500px;
   text-transform: uppercase;
-  margin: 3 3 3 3;
+  margin: 3px;
   font-weight: normal;
   background-color: var(--paper-dark);
   box-shadow:
-    8px 0 0 0 var(--ink),
-    -8px 0 0 0 var(--ink),
-    0 8px 0 0 var(--ink),
-    0 -8px 0 0 var(--ink);
+    8px 0 0 0 var(--marrom-vermelho),
+    -8px 0 0 0 var(--marrom-vermelho),
+    0 8px 0 0 var(--marrom-vermelho),
+    0 -8px 0 0 var(--marrom-vermelho);
 }
 
 #letterboxd-embed-wrapper-tc {
