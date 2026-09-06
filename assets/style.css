@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-image: url('/assets/images/background-1.png');
+  background-color: var(--paper);  
   background-size: contain;
   background-attachment: fixed;
   color: var(--ink);
@@ -79,17 +79,12 @@ a:hover {
 
 .home-columns > * {
   padding: 0 9px;
-  background-color: var(--paper-dark);
-  box-shadow:
-    8px 0 0 0 var(--marrom-vermelho),
-    -8px 0 0 0 var(--marrom-vermelho),
-    0 8px 0 0 var(--marrom-vermelho),
-    0 -8px 0 0 var(--marrom-vermelho);
 }
 
 .coluna-navegacao {
   width: 200px;
   flex-shrink: 0;
+
 }
 
 .home-main {
@@ -248,12 +243,6 @@ a:hover {
 
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
-  background-color: var(--paper-dark);
-  box-shadow:
-    8px 0 0 0 var(--marrom-vermelho),
-    -8px 0 0 0 var(--marrom-vermelho),
-    0 8px 0 0 var(--marrom-vermelho),
-    0 -8px 0 0 var(--marrom-vermelho);
 }
 
 .letterboxdtitulo {
@@ -262,12 +251,6 @@ a:hover {
   text-transform: uppercase;
   margin: 3px;
   font-weight: normal;
-  background-color: var(--paper-dark);
-  box-shadow:
-    8px 0 0 0 var(--marrom-vermelho),
-    -8px 0 0 0 var(--marrom-vermelho),
-    0 8px 0 0 var(--marrom-vermelho),
-    0 -8px 0 0 var(--marrom-vermelho);
 }
 
 #letterboxd-embed-wrapper-tc {
