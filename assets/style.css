@@ -20,7 +20,7 @@ html, body {
 
 body {
   background-image: url('/assets/images/lava.jpg');
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   color: var(--ink);
   font-family: 'Special Elite', monospace;
