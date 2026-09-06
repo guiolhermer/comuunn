@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-image: url('/assets/images/background-1.jpg');
+  background-image: url('/assets/images/lava.jpg');
   background-size: contain;
   background-attachment: fixed;
   color: var(--ink);
