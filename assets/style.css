@@ -78,7 +78,12 @@ a:hover {
 
 .home-columns > * {
   padding: 0 9px;
-  background-color: var(--blue);
+  background-color: var(--paper-dark);
+  box-shadow:
+    8px 0 0 0 var(--ink),
+    -8px 0 0 0 var(--ink),
+    0 8px 0 0 var(--ink),
+    0 -8px 0 0 var(--ink);
 }
 
 .coluna-navegacao {
@@ -242,7 +247,7 @@ a:hover {
 
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
-  background-color: var(--blue);
+  background-color: var(--paper-dark);
 }
 
 .letterboxdtitulo {
@@ -250,6 +255,12 @@ a:hover {
   text-transform: uppercase;
   margin: 3 3 3 3;
   font-weight: normal;
+  background-color: var(--paper-dark);
+  box-shadow:
+    8px 0 0 0 var(--ink),
+    -8px 0 0 0 var(--ink),
+    0 8px 0 0 var(--ink),
+    0 -8px 0 0 var(--ink);
 }
 
 #letterboxd-embed-wrapper-tc {
