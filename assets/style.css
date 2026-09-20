@@ -1,7 +1,7 @@
 /* ---------- paleta e variáveis ---------- */
 :root {
   --paper: #e6e1d3;
-  --paper-dark: #d9c99a;
+  --paper-dark: #bf9f40;
   --ink: #1a1a1a;
   --marrom-vermelho: #3c1000;
   --card-bg: #fdf8ec;
@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-color: var(--branco-escuro);
+  background-color: var(--paper-dark);
   background-attachment: fixed;
   color: var(--ink);
   font-family: 'Nunito', sans-serif;
