@@ -89,9 +89,10 @@ a:hover {
 .home-main {
   flex: 1;
   min-width: 500px;
+  Overflow-y: auto;
 }
 
-.coluna-geral-esquerda {
+.coluna-geral-direita {
   width: 250px;
   flex-shrink: 0;
 }
