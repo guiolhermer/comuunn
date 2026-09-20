@@ -106,14 +106,14 @@ a:hover {
   text-transform: uppercase;
 }
 
-.about-this-title {
+.sobre-isto-titulo {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0 0 6px;
 }
 
-.about-this-text {
+.sobre-isto-texto {
   font-size: 12px;
   text-transform: lowercase;
   line-height: 1.7;
@@ -121,29 +121,29 @@ a:hover {
   white-space: pre-line;
 }
 
-.titulo-latest-feelings {
+.titulo-ultimos-sentimentos {
   font-family: 'Special Elite', proportional;
   font-size: 14px;
   margin: 0;
   text-transform: uppercase;
 }
 
-.box-feelings { 
+.box-sentimentos { 
   max-height: 500px; 
   overflow-y: auto; 
   padding-right: 6px; 
 } 
 
-.feeling-item { 
+.sentimentos-item { 
   padding: 10px 0; 
   border-bottom: 1px dashed var(--ink); 
 } 
 
-.feeling-item:last-child { 
+.sentimentos-item:last-child { 
   border-bottom: none; 
 } 
 
-.data-feeling { 
+.data-sentimentos { 
   font-size: 11px; 
   opacity: 0.6; 
   margin: 0 0 4px; 

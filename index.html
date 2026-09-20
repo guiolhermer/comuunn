@@ -22,15 +22,15 @@ layout: null
     {% include nav-coluna.html %}
 
     <main class="home-main">
-      <p class="about-this-title">about this</p>
-      <p class="about-this-text">{{ site.description }}</p>
+      <p class="sobre-isto-titulo">Sobre isto</p>
+      <p class="sobre-isto-texto">{{ site.description }}</p>
     </main>
 
     <aside class="coluna-geral-esquerda">
-      <p class="titulo-latest-feelings">latest feelings</p>
-      <div class="box-feelings"> {% assign feelings = site.data.feelings | sort: 'date' | reverse %} {% for feeling in feelings %}
-        <div class="feeling-item">
-          <p class="data-feeling">{{ feeling.date | date: '%d/%m' }}</p>
+      <p class="titulo-ultimos-sentimentos">últimos sentimentos</p>
+      <div class="box-sentimentos"> {% assign feelings = site.data.feelings | sort: 'date' | reverse %} {% for feeling in feelings %}
+        <div class="sentimentos-item">
+          <p class="data-sentimentos">{{ feeling.date | date: '%d/%m' }}</p>
           <p class="texto-dizer-esquerda">{{ feeling.text }}</p>
         </div> {% endfor %}
       </div>
