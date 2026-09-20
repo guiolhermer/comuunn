@@ -46,7 +46,8 @@ a:hover {
 .sobre-isto-titulo,
 .titulo-ultimos-sentimentos,
 .titulo-post,
-.letterboxdtitulo {
+.letterboxdtitulo
+.coluna-navegacao {
   font-family: 'Special Elite', monospace;
 }
 
