@@ -259,6 +259,52 @@ a:hover {
   width: 500px;
 }
 
+/* ---------- goodreads widget ---------- */
+/* ---------- segunda linha de colunas (letterboxd + goodreads) ---------- */
+.segunda-home-columns {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.coluna-letterboxd {
+  flex: 1;
+  min-width: 280px;
+}
+
+.coluna-goodreads {
+  flex-shrink: 0;
+}
+
+/* ---------- widget do goodreads ---------- */
+#gr_updates_widget {
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid #683205 10px;
+  box-shadow: 0px 0px 4px 1px #595959, inset 0px 0px 0px 1px #7D730B;
+  padding: 15px 0 0 15px;
+  width: 250px;
+  height: 365px;
+}
+
+#gr_footer {
+  margin-bottom: 0;
+  height: 30px;
+}
+
+#gr_footer img {
+  width: 100px;
+  float: left;
+}
+
+@media (max-width: 640px) {
+  .segunda-home-columns {
+    flex-direction: column;
+  }
+}
+
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
