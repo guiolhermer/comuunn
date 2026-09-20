@@ -42,6 +42,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.site-title,
+.sobre-isto-titulo,
+.titulo-ultimos-sentimentos,
+.titulo-post,
+.letterboxdtitulo {
+  font-family: 'Special Elite', monospace;
+}
+
 /* ---------- título do site (usado no masthead da home e dos posts) ---------- */
 .site-title {
   font-family: 'Special Elite', monospace;
