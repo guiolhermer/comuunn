@@ -89,7 +89,7 @@ a:hover {
 .home-main {
   flex: 1;
   min-width: 500px;
-  Overflow-y: auto;
+  overflow-y: auto;
 }
 
 .coluna-geral-direita {
