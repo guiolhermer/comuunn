@@ -98,6 +98,7 @@ a:hover {
   flex: 1;
   min-width: 500px;
   max-height: 500px; 
+  overflow-y: auto;
 }
 
 .coluna-geral-direita {
@@ -127,7 +128,6 @@ a:hover {
   line-height: 1.7;
   margin: 0 0 24px;
   white-space: pre-line;
-  overflow-y: 500px;
 }
 
 .titulo-ultimos-sentimentos {
