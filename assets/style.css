@@ -127,7 +127,7 @@ a:hover {
   line-height: 1.7;
   margin: 0 0 24px;
   white-space: pre-line;
-  overflow-y: auto;
+  overflow-y: 500px;
 }
 
 .titulo-ultimos-sentimentos {
