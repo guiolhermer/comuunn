@@ -97,7 +97,7 @@ a:hover {
 .home-main {
   flex: 1;
   min-width: 500px;
-  max-height: 500px; 
+  max-height: 549px; 
   overflow-y: auto;
 }
 
