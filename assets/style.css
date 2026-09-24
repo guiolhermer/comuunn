@@ -42,6 +42,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.conteudo-wrap {
+	padding: 20px;
+	box-shadow: 0 0 12px 4px rgba(112, 66, 20, 0.85);
+	border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 /* ---------- título do site (usado no masthead da home e dos posts) ---------- */
 .site-title {
   font-family: 'Special Elite', monospace;
