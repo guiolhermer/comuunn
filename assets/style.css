@@ -354,9 +354,6 @@ a:hover {
 .terceira-home-columns {
   padding-top: 24px;
   max-width: 1026px;
-  background-image: url('/assets/images/paperlinewidth1026.png');
-  border-radius: 16px;
-  overflow: hidden;
   color: var(--ink);
 }
 
