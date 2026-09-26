@@ -312,7 +312,7 @@ a:hover {
 /* ---------- widget do goodreads ---------- */
 
 .box-imagem-menina {
-  width: 180px;         /* Define a largura do espaço da imagem */
+  width: 170px;         /* Define a largura do espaço da imagem */
   display: flex;
   justify-content: center; /* Centraliza a imagem dentro desta div */
   flex-shrink: 0;
