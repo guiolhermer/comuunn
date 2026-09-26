@@ -293,6 +293,8 @@ a:hover {
   flex-wrap: wrap;
   margin-top: 24px;
   background-image: url('/assets/images/paperline.png');
+  bkacground-position: left top;
+  background-width: 100%;
 }
 
 .coluna-letterboxd {
