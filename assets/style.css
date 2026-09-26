@@ -354,7 +354,9 @@ a:hover {
 .terceira-home-columns {
   padding-top: 24px;
   max-width: 1026px;
+  max-height: 500px;
   color: var(--ink);
+  overflow-y: auto;
 }
 
 .item-post-home {
