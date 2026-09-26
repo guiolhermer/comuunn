@@ -258,7 +258,7 @@ a:hover {
   margin-top: 5px;
 }
 
-/* ----------- letterboxd log ----------*/
+/* ----------- letterboxd ----------*/
 
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
@@ -273,6 +273,11 @@ a:hover {
   padding: 0 9px;
   margin-bottom: 6px;
 }
+
+.letterboxd-embed-tc-review {
+  color: var(--branco-escuro);
+}
+
 
 #letterboxd-embed-wrapper-tc {
   width: 500px;
