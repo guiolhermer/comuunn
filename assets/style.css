@@ -140,8 +140,14 @@ a:hover {
 .box-sentimentos { 
   max-height: 500px; 
   overflow-y: auto; 
+  scrollbar-width: none; /* Esconder barra de rolagem */
   padding-right: 6px; 
 } 
+
+/* Esconde a barra de rolagem no Chrome, Safari e Opera */
+.box-sentimentos::-webkit-scrollbar { 
+  display: none;
+}
 
 .sentimentos-item { 
   padding: 30px 25px; /* Espaçamento interno indispensável para o texto não encostar nas bordas rasgadas */
