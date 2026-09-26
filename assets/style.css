@@ -359,8 +359,12 @@ a:hover {
   overflow-y: auto;
   background-image: url('/assets/images/moving-cloud.gif');
     -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 60%, transparent 100%)
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
   scrollbar-width: 2px;
+}
+
+.terceira-home-columns::-webkit-scrollbar { 
+  display: 2px;
 }
 
 .item-post-home {
