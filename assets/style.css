@@ -21,7 +21,7 @@ html, body {
 body {
   background-image: url('/assets/images/stars 1.gif');
   background-attachment: fixed;
-  color: var(--ink);
+  color: var(--branco-escuro);
   font-family: 'Special Elite', monospace;
   line-height: 1.6;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 a {
-  color: var(--ink);
+  color: var(--branco-escuro);
   text-decoration: none;
 }
 
