@@ -358,6 +358,7 @@ a:hover {
   color: var(--ink);
   overflow-y: auto;
   background-image: url('/assets/images/moving-cloud.gif');
+  scrollbar-width: 2px;
 }
 
 .item-post-home {
