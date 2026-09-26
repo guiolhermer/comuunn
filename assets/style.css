@@ -360,11 +360,11 @@ a:hover {
   background-image: url('/assets/images/moving-cloud.gif');
     -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-  scrollbar-width: 2px;
+  scrollbar-width: thin;
 }
 
 .terceira-home-columns::-webkit-scrollbar { 
-  display: 2px;
+  width: 2px;
 }
 
 .item-post-home {
