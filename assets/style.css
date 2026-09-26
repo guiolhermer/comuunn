@@ -352,7 +352,7 @@ a:hover {
 
 /* ---------- terceira seção (sentimentos difíceis na home) ---------- */
 .terceira-home-columns {
-  padding-top: 40px;
+  padding-top: 10px;
   max-width: 500px;
   max-height: 500px;
   color: var(--ink);
@@ -373,7 +373,7 @@ a:hover {
 
 .imagem-titulo-blog-home {
   width: 158px;
-  height: 81px;
+  height: 150px;
   position: absolute;
   left: 50px;
   display: flex;
