@@ -99,6 +99,7 @@ a:hover {
   min-width: 500px;
   max-height: 549px; 
   overflow-y: auto;
+  color: var(--branco-escuro);
 }
 
 .coluna-geral-direita {
