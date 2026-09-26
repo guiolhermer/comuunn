@@ -376,7 +376,7 @@ a:hover {
   height: 75px;
   position: sticky;
   left: 220px;
-  top: 20px;
+  top: -20px;
   display: flex;
 }
 
