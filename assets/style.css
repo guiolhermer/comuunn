@@ -306,8 +306,7 @@ a:hover {
 /* ---------- widget do goodreads ---------- */
 #gr_updates_widget {
   border-radius: 5px;
-  background-color: #fff;
-  border: solid #683205 10px;
+  background-color: none;
   box-shadow: 0px 0px 4px 1px #595959, inset 0px 0px 0px 1px #7D730B;
   padding: 15px 0 0 15px;
   width: 300px;
