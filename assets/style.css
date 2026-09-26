@@ -311,11 +311,18 @@ a:hover {
 
 /* ---------- widget do goodreads ---------- */
 
-.imagem-menina {
+.box-imagem-menina {
   width: 180px;         /* Define a largura do espaço da imagem */
   display: flex;
   justify-content: center; /* Centraliza a imagem dentro desta div */
   flex-shrink: 0;
+}
+
+.imagem-menina {
+  width: 100%;         /* Faz a imagem ocupar toda a largura da div */
+  max-width: 180px;    /* Garante que a imagem não ultrapasse 180px */
+  height: proportion;        /* Mantém a proporção da imagem */
+  display: block;      /* Remove espaços em branco abaixo da imagem */
 }
 
 .goodreads-container {
