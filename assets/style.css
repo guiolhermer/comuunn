@@ -380,8 +380,8 @@ a:hover {
   background-image: url('/assets/images/moving-cloud.gif');
   background-size: cover;
   mask-image:
-    linear-gradient(to right, transparent, black 15%, black 85%, transparent),
-    linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+    linear-gradient(to right, transparent, black 50%, black 85%, transparent),
+    linear-gradient(to bottom, transparent, black 50%, black 85%, transparent);
   mask-composite: intersect;
   scrollbar-width: thin;
 }
