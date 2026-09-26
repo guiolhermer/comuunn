@@ -21,7 +21,7 @@ html, body {
 body {
   background-image: url('/assets/images/azul-quadrado.gif');
   background-attachment: fixed;
-  color: var(--ink);
+  color: var(--paper);
   font-family: 'Special Elite', monospace;
   line-height: 1.6;
 }
