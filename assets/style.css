@@ -144,8 +144,11 @@ a:hover {
 } 
 
 .sentimentos-item { 
-  padding: 10px 0; 
-  border-bottom: 1px dashed var(--ink); 
+  padding: 30px 25px; /* Espaçamento interno indispensável para o texto não encostar nas bordas rasgadas */
+  margin-bottom: 20px; /* Separação entre cada post da lista */
+  box-sizing: border-box; /* Mantém a caixa flexível ao conteúdo */
+  background-image: url('/assets/images/pergaminho.png');
+  background-size: 100% 100%; /* Faz o pergaminho cobrir exatamente a largura e altura do post */
 } 
 
 .sentimentos-item:last-child { 
