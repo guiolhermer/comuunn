@@ -352,13 +352,12 @@ a:hover {
 
 /* ---------- terceira seção (sentimentos difíceis na home) ---------- */
 .terceira-home-columns {
-  margin-top: 32px;
   padding-top: 24px;
-  border-top: 1px solid var(--ink);
   max-width: 700px;
   background-image: url('/assets/images/paperlinewidth1026.png');
   border-radius: 16px;
   overflow: hidden;
+  color: var(--ink);
 }
 
 /* ---------- responsivo ---------- */
