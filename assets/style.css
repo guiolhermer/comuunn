@@ -30,6 +30,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 32px 20px 60px;
+  color: var(--branco-escuro);
 }
 
 a {
@@ -99,7 +100,6 @@ a:hover {
   min-width: 500px;
   max-height: 549px; 
   overflow-y: auto;
-  color: var(--branco-escuro);
 }
 
 .coluna-geral-direita {
