@@ -310,6 +310,10 @@ a:hover {
 }
 
 /* ---------- widget do goodreads ---------- */
+.goodreads-container {
+  background-color: none;
+}
+
 #gr_updates_widget {
   border-radius: 5px;
   background-color: none;
