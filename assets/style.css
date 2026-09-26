@@ -294,8 +294,7 @@ a:hover {
   margin-top: 24px;
   background-image: url('/assets/images/paperline.png');
   background-position: left top;
-  background-repeat: no-repeat;
-  background-width:1026px;
+  background-size: 100% 100%;
 }
 
 .coluna-letterboxd {
