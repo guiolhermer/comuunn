@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-image: url('/assets/images/starts1.gif');
+  background-image: url('/assets/images/stars1.gif');
   background-attachment: fixed;
   color: var(--ink);
   font-family: 'Special Elite', monospace;
