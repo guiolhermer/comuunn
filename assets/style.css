@@ -105,6 +105,7 @@ a:hover {
 .coluna-geral-direita {
   width: 200px;
   flex-shrink: 0;
+  color: var(--ink);
 }
 
 .lista-navegacao {
