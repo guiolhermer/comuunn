@@ -275,7 +275,7 @@ a:hover {
 }
 
 /* ---------- goodreads widget ---------- */
-/* ---------- segunda coluna (letterboxd + goodreads) ---------- */
+/* ---------- segunda seção (letterboxd + goodreads) ---------- */
 .segunda-home-columns {
   display: flex;
   gap: 24px;
@@ -352,7 +352,7 @@ a:hover {
 
 /* ---------- terceira seção (sentimentos difíceis na home) ---------- */
 .terceira-home-columns {
-  padding-top: 24px;
+  padding-top: 40px;
   max-width: 500px;
   max-height: 500px;
   color: var(--ink);
@@ -364,6 +364,19 @@ a:hover {
    linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
   mask-composite: intersect;
   scrollbar-width: thin;
+}
+
+.item-post-home {
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+}
+
+.imagem-titulo-blog-home {
+  width: 158px;
+  height: 81px;
+  position: absolute;
+  left: 40px;
+  display: flex;
 }
 
 .terceira-home-columns::-webkit-scrollbar { 

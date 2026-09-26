@@ -82,6 +82,8 @@ layout: null
 
   <div class="terceira-home-columns">
 
+    <img src="/assets/images/titulo-blog-home.png" alt="titulo blog" class="imagem-titulo-blog-home">
+
     {% for post in site.posts %}
     <article class="item-post-home">
       <p class="data-post">{{ post.date | date: "%d de %B, %Y" }}</p>
@@ -90,8 +92,7 @@ layout: null
       <p class="link-continuar"><a href="{{ post.url }}">continuar lendo &rarr;</a></p>
     </article>
     {% endfor %}
-  </div>
-
+   </div>
   </div>
 </div>
 
