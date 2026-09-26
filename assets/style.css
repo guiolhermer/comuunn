@@ -31,6 +31,7 @@ body {
   margin: 0 auto;
   padding: 32px 20px 60px;
   color: var(--branco-escuro);
+  box-sizing: border-box;
 }
 
 a {
@@ -44,11 +45,12 @@ a:hover {
 }
 
 .conteudo-wrapper {
-	padding: 20px;
-	box-shadow: 0 0 12px 4px rgba(112, 66, 20, 0.85);
-	border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 0 12px 4px rgba(112, 66, 20, 0.85);
+  border-radius: 4px;
   box-sizing: border-box;
-  width: 1066px;
+  width: 100%;
+  max-width: 960px;
 }
 
 /* ---------- título do site (usado no masthead da home e dos posts) ---------- */
@@ -80,14 +82,14 @@ a:hover {
 /* ---------- 3 colunas da home ---------- */
 .home-columns {
   display: flex;
-  gap: 0;
   margin-top: 20px;
-  align-items: stretchs;
-  gap: 18px;
+  align-items: stretch;
+  gap: 16px;
 }
 
 .home-columns > * {
   padding: 0 9px;
+  box-sizing: border-box;
 }
 
 .coluna-navegacao {
@@ -97,8 +99,8 @@ a:hover {
 
 .home-main {
   flex: 1;
-  min-width: 500px;
-  max-height: 549px; 
+  min-width: 460px;
+  max-height: 549px;
   overflow-y: auto;
 }
 
@@ -140,35 +142,34 @@ a:hover {
   text-transform: uppercase;
 }
 
-.box-sentimentos { 
-  max-height: 500px; 
-  overflow-y: auto; 
-  scrollbar-width: none; /* Esconder barra de rolagem */
-  padding-right: 6px; 
-} 
+.box-sentimentos {
+  max-height: 500px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding-right: 6px;
+}
 
-/* Esconde a barra de rolagem no Chrome, Safari e Opera */
-.box-sentimentos::-webkit-scrollbar { 
+.box-sentimentos::-webkit-scrollbar {
   display: none;
 }
 
-.sentimentos-item { 
-  padding: 30px 25px; /* Espaçamento interno indispensável para o texto não encostar nas bordas rasgadas */
-  margin-bottom: 20px; /* Separação entre cada post da lista */
-  box-sizing: border-box; /* Mantém a caixa flexível ao conteúdo */
+.sentimentos-item {
+  padding: 30px 25px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
   background-image: url('/assets/images/pergaminho.png');
-  background-size: 100% 100%; /* Faz o pergaminho cobrir exatamente a largura e altura do post */
-} 
+  background-size: 100% 100%;
+}
 
-.sentimentos-item:last-child { 
-  border-bottom: none; 
-} 
+.sentimentos-item:last-child {
+  border-bottom: none;
+}
 
-.data-sentimentos { 
-  font-size: 11px; 
-  opacity: 0.8; 
-  margin: 0 0 4px; 
-} 
+.data-sentimentos {
+  font-size: 11px;
+  opacity: 0.8;
+  margin: 0 0 4px;
+}
 
 .coluna-direita {
   padding: 12px;
@@ -236,8 +237,10 @@ a:hover {
 /* ---------- guestbook ---------- */
 .guestbook-content {
   font-family: Arial, Helvetica, sans-serif;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 .guestbook-message {
@@ -264,10 +267,9 @@ a:hover {
 
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
-}
-
-#letterboxd-embed-wrapper-tc {
-  width: 500px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .letterboxd-embed-tc-divider {
@@ -287,16 +289,18 @@ a:hover {
   overflow: hidden;
   color: var(--ink);
   position: relative;
+  box-sizing: border-box;
 }
 
 .coluna-letterboxd {
   flex: 1;
-  max-width: 500px;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .coluna-goodreads {
   flex-shrink: 0;
-  flex: 1;
   margin-left: auto;
   display: flex;
   align-items: flex-start;
@@ -313,6 +317,7 @@ a:hover {
   padding: 15px 0 0 15px;
   width: 300px;
   height: 430px;
+  box-sizing: border-box;
 }
 
 #gr_footer {
@@ -327,26 +332,26 @@ a:hover {
 
 /* IMAGEM MENINA */
 .box-imagem-menina {
-  width: 170px;         /* Define a largura do espaço da imagem */
+  width: 110px;
   display: flex;
-  justify-content: center; /* Centraliza a imagem dentro desta div */
-  flex-shrink: 0;    
-  }
+  justify-content: center;
+  flex-shrink: 0;
+}
 
 .imagem-menina {
-  width: 100%;         /* Faz a imagem ocupar toda a largura da div */
-  max-width: 180px;    /* Garante que a imagem não ultrapasse 180px */
-  height: proportion;        /* Mantém a proporção da imagem */
-  display: block;      /* Remove espaços em branco abaixo da imagem */
+  width: 100%;
+  max-width: 110px;
+  display: block;
 }
 
 /* TÍTULO FILMES E LIVROS */
 .box-imagem-titulofilmeselivros {
   position: absolute;
   bottom: 20px;
-  left: 500px;
+  left: 340px;
   height: 150px;
   width: 550px;
+  max-width: calc(100% - 340px);
   display: flex;
 }
 
@@ -355,7 +360,7 @@ a:hover {
   padding-top: 10px;
   max-width: 500px;
   color: var(--ink);
-  position: relative; /* referência pra imagem do título se posicionar aqui */
+  position: relative;
 }
 
 .imagem-titulo-blog-home {
@@ -364,7 +369,7 @@ a:hover {
   position: absolute;
   left: 220px;
   top: 40px;
-  z-index: 2; /* garante que fica por cima da lista de posts */
+  z-index: 2;
 }
 
 .lista-posts-home {
