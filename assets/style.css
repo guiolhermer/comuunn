@@ -295,6 +295,7 @@ a:hover {
   background-image: url('/assets/images/paperline1026width.png');
   border-radius: 16px;
   overflow: hidden;
+  color: var(--ink);
 }
 
 .coluna-letterboxd {
