@@ -300,7 +300,7 @@ a:hover {
 
 .coluna-letterboxd {
   flex: 1;
-  min-width: 280px;
+  width: 500px;
 }
 
 .coluna-goodreads {
