@@ -310,6 +310,16 @@ a:hover {
 }
 
 /* ---------- widget do goodreads ---------- */
+
+.imagem-menina {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 172px;
+  height: auto;
+  justify-content: center;
+}
+
 .goodreads-container {
   background-color: none;
 }
