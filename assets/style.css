@@ -378,7 +378,6 @@ a:hover {
   left: 220px;
   top: 20px;
   display: flex;
-  z-index: 2;
 }
 
 .terceira-home-columns::-webkit-scrollbar { 
