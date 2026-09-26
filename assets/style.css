@@ -275,7 +275,7 @@ a:hover {
 }
 
 /* ---------- goodreads widget ---------- */
-/* ---------- segunda linha de colunas (letterboxd + goodreads) ---------- */
+/* ---------- segunda coluna (letterboxd + goodreads) ---------- */
 .segunda-home-columns {
   display: flex;
   gap: 24px;
@@ -286,6 +286,7 @@ a:hover {
   border-radius: 16px;
   overflow: hidden;
   color: var(--ink);
+  position: relative;
 }
 
 .coluna-letterboxd {
@@ -300,22 +301,6 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-}
-
-/* ---------- widget do goodreads ---------- */
-
-.box-imagem-menina {
-  width: 170px;         /* Define a largura do espaço da imagem */
-  display: flex;
-  justify-content: center; /* Centraliza a imagem dentro desta div */
-  flex-shrink: 0;
-}
-
-.imagem-menina {
-  width: 100%;         /* Faz a imagem ocupar toda a largura da div */
-  max-width: 180px;    /* Garante que a imagem não ultrapasse 180px */
-  height: proportion;        /* Mantém a proporção da imagem */
-  display: block;      /* Remove espaços em branco abaixo da imagem */
 }
 
 .goodreads-container {
@@ -340,13 +325,37 @@ a:hover {
   float: left;
 }
 
+/* IMAGEM MENINA */
+.box-imagem-menina {
+  width: 170px;         /* Define a largura do espaço da imagem */
+  display: flex;
+  justify-content: center; /* Centraliza a imagem dentro desta div */
+  flex-shrink: 0;    
+  }
+
+.imagem-menina {
+  width: 100%;         /* Faz a imagem ocupar toda a largura da div */
+  max-width: 180px;    /* Garante que a imagem não ultrapasse 180px */
+  height: proportion;        /* Mantém a proporção da imagem */
+  display: block;      /* Remove espaços em branco abaixo da imagem */
+}
+
+/* TÍTULO FILMES E LIVROS */
+.box-imagem-titulofilmeselivros {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 280px;
+  height: 150px;
+}
+
+/* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .segunda-home-columns {
     flex-direction: column;
   }
 }
 
-/* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .site-title {
     font-size: 46px;
