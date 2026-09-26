@@ -347,6 +347,8 @@ a:hover {
   left: 40px;
   right: 280px;
   height: 150px;
+  width: 550px;
+  display: flex;
 }
 
 /* ---------- responsivo ---------- */
