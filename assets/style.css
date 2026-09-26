@@ -357,6 +357,7 @@ a:hover {
   max-height: 500px;
   color: var(--ink);
   overflow-y: auto;
+  background-image: url('/assets/images/moving-cloud.gif');
 }
 
 .item-post-home {
