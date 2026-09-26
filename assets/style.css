@@ -305,6 +305,7 @@ a:hover {
 
 .coluna-goodreads {
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 /* ---------- widget do goodreads ---------- */
