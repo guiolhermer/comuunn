@@ -354,21 +354,8 @@ a:hover {
 .terceira-home-columns {
   padding-top: 10px;
   max-width: 500px;
-  max-height: 500px;
   color: var(--ink);
-  overflow-y: auto;
-  background-image: url('/assets/images/moving-cloud.gif');
-  background-size: cover;
-  mask-image: 
-   linear-gradient(to right, transparent, black 15%, black 85%, transparent),
-   linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
-  mask-composite: intersect;
-  scrollbar-width: thin;
-  position: relative;
-}
-
-.item-post-home {
-  padding-top: 20px;
+  position: relative; /* referência pra imagem do título se posicionar aqui */
 }
 
 .imagem-titulo-blog-home {
@@ -377,10 +364,22 @@ a:hover {
   position: absolute;
   left: 220px;
   top: 20px;
-  display: flex;
+  z-index: 2; /* garante que fica por cima da lista de posts */
 }
 
-.terceira-home-columns::-webkit-scrollbar { 
+.lista-posts-home {
+  max-height: 500px;
+  overflow-y: auto;
+  background-image: url('/assets/images/moving-cloud.gif');
+  background-size: cover;
+  mask-image:
+    linear-gradient(to right, transparent, black 15%, black 85%, transparent),
+    linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+  mask-composite: intersect;
+  scrollbar-width: thin;
+}
+
+.lista-posts-home::-webkit-scrollbar {
   width: 2px;
 }
 
