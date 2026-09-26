@@ -360,6 +360,10 @@ a:hover {
   color: var(--ink);
 }
 
+.item-post-home {
+  padding: 20px;
+}
+
 /* ---------- responsivo ---------- */
 @media (max-width: 640px) {
   .segunda-home-columns {

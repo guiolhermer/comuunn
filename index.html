@@ -84,7 +84,7 @@ layout: null
     <p class="sobre-isto-titulo">sentimentos difíceis</p>
 
     {% for post in site.posts %}
-    <article class="item-post">
+    <article class="item-post-home">
       <p class="data-post">{{ post.date | date: "%d de %B, %Y" }}</p>
       <h2 class="titulo-post"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="texto-post">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
