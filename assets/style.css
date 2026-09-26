@@ -312,12 +312,10 @@ a:hover {
 /* ---------- widget do goodreads ---------- */
 
 .imagem-menina {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 172px;
-  height: auto;
-  justify-content: center;
+ width: 180px;         /* Define a largura do espaço da imagem */
+  display: flex;
+  justify-content: center; /* Centraliza a imagem dentro desta div */
+  flex-shrink: 0;
 }
 
 .goodreads-container {
