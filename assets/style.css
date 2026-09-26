@@ -293,8 +293,6 @@ a:hover {
   flex-wrap: wrap;
   margin-top: 24px;
   background-image: url('/assets/images/paperline.png');
-  background-position: left top;
-  background-size: 1026px auto;
   border-radius: 16px;
   overflow: hidden;
 }
