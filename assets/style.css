@@ -375,7 +375,8 @@ a:hover {
   width: 158px;
   height: 75px;
   position: absolute;
-  left: 50px;
+  left: 120px;
+  top: -50px;
   display: flex;
 }
 
