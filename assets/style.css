@@ -359,7 +359,7 @@ a:hover {
   overflow-y: auto;
   background-image: url('/assets/images/moving-cloud.gif');
     -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
-    mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+    mask-image: radial-gradient(ellipse at center, black 60%, transparent 80%);
   scrollbar-width: thin;
 }
 
