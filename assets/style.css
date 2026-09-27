@@ -289,8 +289,6 @@ a:hover {
 .buttonbox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 1px;
   margin-top: 2px;
   padding: 3px;
@@ -304,13 +302,6 @@ a:hover {
   margin: 0 0 1px;
 }
 
-.button1,
-.button2 {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
 
 /* ---------- segunda seção (letterboxd + goodreads) ---------- */
 .segunda-home-columns {
