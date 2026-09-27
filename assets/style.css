@@ -433,6 +433,7 @@ a:hover {
 .blue-glitter-star9, 
 .blue-glitter-star10 {
   display: flex;
+  position: sticky;
   flex-direction: row;
   top: 0;
   left: 0;
@@ -447,6 +448,7 @@ a:hover {
   gap: 24px;
   align-items: flex-start;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .blog-box-home {
