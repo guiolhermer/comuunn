@@ -98,15 +98,6 @@ layout: null
       </div>
 
     </div>
-
-    <div class="photo-thumbnails-grid">
-{% for photo in site.photos limit:6 %}
-      <a href="{{ photo.url }}" class="thumb-item">
-        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | default: '' }}">
-      </a>
-{% endfor %}
-    </div>
-    
   </div>
 </div>
 
