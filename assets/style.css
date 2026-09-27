@@ -436,6 +436,11 @@ a:hover {
   margin-bottom: 12px;
 }
 
+.home-main-foto {
+  flex: 1;
+  min-width: 460px;
+}
+
 @media (max-width: 900px) {
   .masonry-galeria {
     column-count: 2;

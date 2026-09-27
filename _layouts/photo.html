@@ -17,7 +17,7 @@
 
     {% include nav-coluna.html %}
 
-    <main class="home-main">
+    <main class="home-main-foto">
       <article class="item-post">
         <p class="data-post">{{ page.date | date: "%d de %B, %Y" }}</p>
         <img src="{{ page.image | relative_url }}" alt="{{ page.alt | default: '' }}" class="foto-grande">
