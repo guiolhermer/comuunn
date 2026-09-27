@@ -297,7 +297,7 @@ a:hover {
 }
 
 .link-me {
-  display: inline-block;
+  display: flex;
   padding: 2px 2px;
   color: var(--branco-escuro);
   text-decoration: none;
