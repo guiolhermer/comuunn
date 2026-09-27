@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-image: url('/assets/images/stars 2.gif');
+  background-image: url('/assets/images/utilidades/stars 2.gif');
   background-attachment: fixed;
   color: var(--branco-escuro);
   font-family: 'Special Elite', monospace;
@@ -302,7 +302,7 @@ a:hover {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 24px;
-  background-image: url('/assets/images/paperlinewidth1026.png');
+  background-image: url('/assets/images/utilidades/paperlinewidth1026.png');
   border-radius: 16px;
   overflow: hidden;
   color: var(--ink);
@@ -395,7 +395,7 @@ a:hover {
   padding-top: 15px;
   max-height: 500px;
   overflow-y: auto;
-  background-image: url('/assets/images/moving-cloud.gif');
+  background-image: url('/assets/images/utilidades/moving-cloud.gif');
   background-size: cover;
   mask-image:
     linear-gradient(to right, transparent, black 5%, black 95%, transparent),
