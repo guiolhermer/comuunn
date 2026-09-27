@@ -305,6 +305,7 @@ a:hover {
   box-sizing: border-box;
   padding-left: 45px;
   overflow-y: auto;
+  scrollbar-width: none;
 }
 
 #letterboxd-embed-wrapper-tc {
