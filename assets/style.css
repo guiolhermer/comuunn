@@ -417,19 +417,14 @@ a:hover {
 
 /* ---------- terceira seção (blog na home) ---------- */
 .linha-divisoria-estrelhas {
-  display: flex;
-  justify-content: space-between; /* espalha as 10 estrelas de ponta a ponta */
-  align-items: center;
   width: 100%;
+  height: 10px; /* mesma altura que você quer pra cada estrela */
+  background-image: url('/assets/images/utilidades/blueglitterstar.gif');
+  background-repeat: repeat-x; /* repete só na horizontal, quantas vezes couber */
+  background-size: 10px 10px; /* tamanho de CADA estrela repetida */
+  margin-bottom: -14px;
   position: relative;
-  margin-bottom: -14px; /* faz sobrepor levemente o que vem embaixo */
   z-index: 2;
-}
-
-.estrela-azul-brilhante {
-  width: 10px; /* era o tamanho nativo do gif (bem maior) — ajuste esse número */
-  height: auto;
-  display: block;
 }
 
 .terceira-home-columns {
