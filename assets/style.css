@@ -475,6 +475,23 @@ a:hover {
   margin-bottom: 12px;
 }
 
+.legenda-toggle {
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.legenda-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.legenda-texto {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
 @media (max-width: 900px) {
   .masonry-galeria {
     column-count: 2;
