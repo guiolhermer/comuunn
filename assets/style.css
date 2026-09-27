@@ -454,7 +454,6 @@ a:hover {
   width: 100%;
   break-inside: avoid;
   padding: 2px;
-  background-color: none;
   color: var(--branco-escruro);
 }
 
@@ -468,7 +467,6 @@ a:hover {
   font-size: 13px;
   margin-top: 8px;
   line-height: 1.6;
-  background-color: var(--paper);
 }
 
 .foto-grande {
