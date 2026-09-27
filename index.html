@@ -80,22 +80,35 @@ layout: null
 
   </div>
 
-   <div class="terceira-home-columns">
+  <div class="terceira-home-columns">
 
-    <img src="/assets/images/utilidades/titulo-blog-home.png" alt="titulo blog" class="imagem-titulo-blog-home">
+    <div class="blog-box-home">
 
-    <div class="lista-posts-home">
-      {% for post in site.posts %}
-      <article class="item-post-home">
-        <p class="data-post">{{ post.date | date: "%d de %B, %Y" }}</p>
-        <h2 class="titulo-post"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="texto-post">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-        <p class="link-continuar"><a href="{{ post.url }}">continuar lendo &rarr;</a></p>
-      </article>
-      {% endfor %}
+      <img src="/assets/images/utilidades/titulo-blog-home.png" alt="titulo blog" class="imagem-titulo-blog-home">
+
+      <div class="lista-posts-home">
+        {% for post in site.posts %}
+        <article class="item-post-home">
+          <p class="data-post">{{ post.date | date: "%d de %B, %Y" }}</p>
+          <h2 class="titulo-post"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="texto-post">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+          <p class="link-continuar"><a href="{{ post.url }}">continuar lendo &rarr;</a></p>
+        </article>
+        {% endfor %}
+      </div>
+
     </div>
 
-  </div>
+    <div class="preview-galeria-home">
+      {% assign fotos_preview = site.photos | sort: 'date' | reverse | slice: 0, 6 %}
+      {% for foto in fotos_preview %}
+      <a href="{{ foto.url }}">
+        <img src="{{ foto.image | relative_url }}" alt="{{ foto.alt | default: '' }}" loading="lazy">
+      </a>
+      {% endfor %}
+      <a href="{{ '/galeria-de-fotos/' | relative_url }}" class="link-ver-galeria">ver todas as fotos &rarr;</a>
+    </div>
+
   </div>
 </div>
 
