@@ -308,6 +308,10 @@ a:hover {
   scrollbar-width: none;
 }
 
+.coluna-letterboxd::-webkit-scrollbar {
+  display: none;
+}
+
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
   width: 100%;
