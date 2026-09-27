@@ -100,13 +100,21 @@ layout: null
     </div>
 
     <div class="galeria-miniaturas">
-  {% for post in site.posts %}
-    {% assign partes = post.content | split: 'src="' %}
-    {% if partes.size > 1 %}
-      {% assign img_url = partes[1] | split: '"' | first %}
-      <a href="{{ post.url }}" class="miniatura-link">
-        <img src="{{ img_url }}" alt="{{ post.title }}" class="miniatura-foto">
+  {% for photo in site.photos %}
+    {% comment %} 1. Se a URL da foto estiver no front matter (ex: foto: /assets/images/foto1.jpg) {% endcomment %}
+    {% if photo.foto %}
+      <a href="{{ photo.url }}" class="miniatura-link">
+        <img src="{{ photo.foto | relative_url }}" alt="{{ photo.title }}" class="miniatura-foto">
       </a>
+    {% else %}
+      {% comment %} 2. Se a foto estiver dentro do conteúdo do .md, extrai a imagem do HTML {% endcomment %}
+      {% assign partes = photo.content | split: 'src="' %}
+      {% if partes.size > 1 %}
+        {% assign img_url = partes[1] | split: '"' | first %}
+        <a href="{{ photo.url }}" class="miniatura-link">
+          <img src="{{ img_url | relative_url }}" alt="{{ photo.title }}" class="miniatura-foto">
+        </a>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>
