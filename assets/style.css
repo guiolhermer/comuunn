@@ -4,7 +4,7 @@
   --paper-dark: #212114;
   --ink: #1a1a1a;
   --marrom-vermelho: #3c1000;
-  --card-bg: #fdf8ec;
+  --branc-mais-escuro: #a19c91;
   --red: #c0392b;
   --blue: #2a5db0;
   --pink: #d4537e;
@@ -480,6 +480,7 @@ a:hover {
   font-size: 13px;
   text-decoration: underline;
   list-style: none;
+  color: var(--branco-mais-escruro);
 }
 
 .legenda-toggle::-webkit-details-marker {
