@@ -32,10 +32,13 @@ layout: null
             <a href="{{ photo.url }}">
               <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | default: '' }}" loading="lazy">
             </a>
+           {% assign legenda = photo.content | strip %}
+            {% if legenda != "" %}
             <details class="legenda-foto">
               <summary class="legenda-toggle">leia a legenda</summary>
-              <div class="legenda-texto">{{ photo.content }}</div>
+              <div class="legenda-texto">{{ legenda }}</div>
             </details>
+            {% endif %}
           </div>
           {% endfor %}
         </div>
