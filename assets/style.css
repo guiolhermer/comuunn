@@ -423,7 +423,6 @@ a:hover {
   background-repeat: repeat-x; /* repete só na horizontal, quantas vezes couber */
   background-size: 26px 26px; /* tamanho de CADA estrela repetida */
   margin-bottom: -20px;
-  margin-top: -20px;
   position: relative;
   z-index: 2;
 }
