@@ -452,7 +452,6 @@ a:hover {
   break-inside: avoid;
   padding: 0 0 10px;
   background-color: var(--paper);
-  box-sizing: border-box;
   color: var(--ink);
 }
 
