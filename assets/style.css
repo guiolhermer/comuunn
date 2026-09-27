@@ -375,6 +375,13 @@ a:hover {
 
 /* ---------- terceira seção (blog na home) ---------- */
 .terceira-home-columns {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.blog-box-home {
   padding-top: 10px;
   max-width: 500px;
   color: var(--ink);
