@@ -356,6 +356,14 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* IMAGEM MENINA */
+.box-imagem-menina {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .imagem-menina {
   width: 100%;
   max-width: 110px;
@@ -363,6 +371,16 @@ a:hover {
 }
 
 /* TÍTULO FILMES E LIVROS */
+.box-imagem-titulofilmeselivros {
+  position: absolute;
+  bottom: 20px;
+  left: 480px;
+  height: 150px;
+  width: 550px;
+  max-width: calc(100% - 340px);
+  display: flex;
+}
+
 .imagem-titulo-filmes-e-livros {
   max-width: 100%;
   max-height: 100%;
@@ -375,10 +393,6 @@ a:hover {
   gap: 24px;
   align-items: flex-start;
   flex-wrap: wrap;
-}
-
-.terceira-home-columns .home-column {
-  flex: 1; /* Distribui o espaço igualmente entre o blog e a galeria */
 }
 
 .blog-box-home {
