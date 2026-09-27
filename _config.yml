@@ -22,6 +22,10 @@ description: |
 
 baseurl: ""
 permalink: /diario/:title/
+collections:
+  photos:
+    output: true
+    permalink: /galeria-de-fotos/:path/
 markdown: kramdown
 
 # pastas e arquivos que o Jekyll deve ignorar ao publicar

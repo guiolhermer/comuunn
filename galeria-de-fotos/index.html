@@ -1,0 +1,48 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>galeria · {{ site.title }}</title>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  {% include masthead.html %}
+
+  <div class="conteudo-wrapper">
+
+    <div class="home-columns">
+
+      {% include nav-coluna.html %}
+
+      <main class="home-main-galeria">
+        <p class="sobre-isto-titulo">galeria</p>
+
+        <div class="masonry-galeria">
+          {% assign photos = site.photos | sort: 'date' | reverse %}
+          {% for photo in photos %}
+          <div class="item-foto">
+            <a href="{{ photo.url }}">
+              <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | default: '' }}" loading="lazy">
+            </a>
+            <div class="legenda-foto">{{ photo.content }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </main>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
