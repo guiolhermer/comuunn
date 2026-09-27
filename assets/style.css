@@ -449,7 +449,6 @@ a:hover {
 .item-foto {
   display: inline-block;
   width: 100%;
-  margin-bottom: 20px;
   break-inside: avoid;
   padding: 0 0 10px;
   background-color: var(--paper);
