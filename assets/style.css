@@ -288,38 +288,30 @@ a:hover {
 
 .buttonbox {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1px;
+  align-items: center;
+  gap: 6px;
   margin-top: 10px;
+  padding: 10px;
   box-shadow: 0 0 12px 4px rgba(112, 66, 20, 0.85);
   border-radius: 4px;
   box-sizing: border-box;
-  position: relative;
 }
 
 .link-me {
-  display: flex;
-  padding: 2px 2px;
+  flex-basis: 100%;
+  text-align: center;
   color: var(--branco-escuro);
-  text-decoration: none;
-  font-size: 12px; 
-  position: absolute;
-  top: 0;
-  left: 0;
+  font-size: 12px;
+  margin: 0 0 4px;
 }
 
-.button1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
+.button1,
 .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 /* ---------- goodreads widget ---------- */
