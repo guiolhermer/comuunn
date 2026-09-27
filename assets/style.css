@@ -417,7 +417,8 @@ a:hover {
 
 /* ---------- terceira seção (blog na home) ---------- */
 .blue-glitter-star {
-  position: absolute;
+  display: flex;
+  flex-direction: row;
   top: 0;
   left: 0;
   width: 100%;
