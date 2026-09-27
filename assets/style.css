@@ -303,15 +303,6 @@ a:hover {
   max-width: 100%;
   box-sizing: border-box;
   padding-left: 45px;
-  overflow-y: auto;
-}
-
-.coluna-goodreads {
-  flex-shrink: 0;
-  margin-left: auto;
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
 }
 
 #letterboxd-embed-wrapper-tc {
@@ -326,6 +317,13 @@ a:hover {
   display: none;
 }
 
+.coluna-goodreads {
+  flex-shrink: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
 
 .goodreads-container {
   background-color: none;
