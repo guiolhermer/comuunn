@@ -102,6 +102,11 @@ a:hover {
   min-width: 460px;
   max-height: 549px;
   overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.home-main::-webkit-scrollbar {
+  width: 2px;
 }
 
 /* ---------- classes próprias de cada página (não reaproveitam .home-main) ---------- */
