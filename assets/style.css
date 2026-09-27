@@ -453,9 +453,9 @@ a:hover {
   display: inline-block;
   width: 100%;
   break-inside: avoid;
-  padding: 0 0 10px;
-  background-color: var(--paper);
-  color: var(--ink);
+  padding: 2px;
+  background-color: none;
+  color: var(--branco-escruro);
 }
 
 .item-foto img {
