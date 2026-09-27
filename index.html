@@ -99,15 +99,17 @@ layout: null
 
     </div>
 
-    <div class="preview-galeria-home">
-      {% assign fotos_preview = site.photos | sort: 'date' | reverse | slice: 0, 6 %}
-      {% for foto in fotos_preview %}
-      <a href="{{ foto.url }}">
-        <img src="{{ foto.image | relative_url }}" alt="{{ foto.alt | default: '' }}" loading="lazy">
+    <div class="galeria-miniaturas">
+  {% for post in site.posts %}
+    {% assign partes = post.content | split: 'src="' %}
+    {% if partes.size > 1 %}
+      {% assign img_url = partes[1] | split: '"' | first %}
+      <a href="{{ post.url }}" class="miniatura-link">
+        <img src="{{ img_url }}" alt="{{ post.title }}" class="miniatura-foto">
       </a>
-      {% endfor %}
-      <a href="{{ '/galeria-de-fotos/' | relative_url }}" class="link-ver-galeria">ver todas as fotos &rarr;</a>
-    </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
   </div>
 </div>
