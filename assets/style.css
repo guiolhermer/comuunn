@@ -422,7 +422,8 @@ a:hover {
   background-image: url('/assets/images/utilidades/blueglitterstar.gif');
   background-repeat: repeat-x; /* repete só na horizontal, quantas vezes couber */
   background-size: 26px 26px; /* tamanho de CADA estrela repetida */
-  margin-bottom: -20px;
+  margin-bottom: -13px;
+  margin-top: -13px;
   position: relative;
   z-index: 2;
 }
