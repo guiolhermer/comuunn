@@ -1,6 +1,6 @@
 ---
 layout: photo
-image: /assets/images/fotosparaposts/saopaulo-marchaparafamiliaedeus.jpg
+image: /assets/images/fotosparaposts/saopaulo-marchaparafamiliacomdeus.jpg
 alt: jornal antigo noticiando marcha para familia e deus
 date: 2026-09-26
 ---
