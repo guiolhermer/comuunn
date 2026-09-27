@@ -421,26 +421,6 @@ a:hover {
   margin-left: 30px;
 }
 
-.galeria-miniaturas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  max-width: 320px; /* Largura da área da galeria */
-}
-
-.miniatura-foto {
-  width: 90px;
-  height: 90px;
-  object-fit: cover; /* Corta a imagem para preencher o quadrado sem distorcer */
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.miniatura-foto:hover {
-  transform: scale(1.04);
-  border-color: rgba(255, 255, 255, 0.6);
-}
 /* ---------- galeria (fotos) ---------- */
 .home-main-galeria {
   flex: 1;
