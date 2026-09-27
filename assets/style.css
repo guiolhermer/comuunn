@@ -312,12 +312,14 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 /* ---------- goodreads widget ---------- */
