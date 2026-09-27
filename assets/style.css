@@ -281,20 +281,6 @@ a:hover {
   margin-top: 5px;
 }
 
-/* ----------- letterboxd ----------*/
-
-#letterboxd-embed-wrapper-tc {
-  margin-top: 10px;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-  overflow-y: auto;
-}
-
-.letterboxd-embed-tc-divider {
-  display: none;
-}
-
 /* ---------- goodreads widget ---------- */
 /* ---------- segunda seção (letterboxd + goodreads) ---------- */
 .segunda-home-columns {
@@ -327,6 +313,19 @@ a:hover {
   align-items: flex-start;
   gap: 16px;
 }
+
+#letterboxd-embed-wrapper-tc {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.letterboxd-embed-tc-divider {
+  display: none;
+}
+
 
 .goodreads-container {
   background-color: none;
