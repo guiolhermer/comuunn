@@ -309,7 +309,8 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  size: 88px; 33px;
+  widht: 88px;
+  height: 31px;
 }
 
 /* ---------- goodreads widget ---------- */
