@@ -306,8 +306,8 @@ a:hover {
 
 .button1,
 .button2 {
-  width: 88px;
-  height: 31px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
 }
