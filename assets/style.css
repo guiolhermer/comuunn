@@ -294,9 +294,6 @@ a:hover {
   gap: 1px;
   margin-top: 2px;
   padding: 3px;
-  box-shadow: 0 0 12px 4px rgba(112, 66, 20, 0.85);
-  border-radius: 4px;
-  box-sizing: border-box;
 }
 
 .link-me {
@@ -304,7 +301,7 @@ a:hover {
   text-align: center;
   color: var(--branco-escuro);
   font-size: 12px;
-  margin: 0 0 4px;
+  margin: 0 0 1px;
 }
 
 .button1,
