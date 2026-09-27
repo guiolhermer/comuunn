@@ -416,7 +416,22 @@ a:hover {
 }
 
 /* ---------- terceira seção (blog na home) ---------- */
-.blue-glitter-star {
+.linha-divisoria-estrelhas {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.blue-glitter-star1, 
+.blue-glitter-star2,
+.blue-glitter-star3, 
+.blue-glitter-star4, 
+.blue-glitter-star5, 
+.blue-glitter-star6, 
+.blue-glitter-star7, 
+.blue-glitter-star8, 
+.blue-glitter-star9, 
+.blue-glitter-star10 {
   display: flex;
   flex-direction: row;
   top: 0;
