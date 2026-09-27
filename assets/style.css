@@ -294,6 +294,7 @@ a:hover {
   box-shadow: 0 0 12px 4px rgba(112, 66, 20, 0.85);
   border-radius: 4px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .link-me {
@@ -301,8 +302,22 @@ a:hover {
   padding: 2px 2px;
   color: var(--branco-escuro);
   text-decoration: none;
-  font-size: 12px;
-  
+  font-size: 12px; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---------- goodreads widget ---------- */
