@@ -288,6 +288,7 @@ a:hover {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .letterboxd-embed-tc-divider {
@@ -348,14 +349,6 @@ a:hover {
 #gr_footer img {
   width: 100px;
   float: left;
-}
-
-/* IMAGEM MENINA */
-.box-imagem-menina {
-  width: 110px;
-  display: flex;
-  justify-content: center;
-  flex-shrink: 0;
 }
 
 /* IMAGEM MENINA */
