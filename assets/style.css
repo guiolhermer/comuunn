@@ -313,7 +313,7 @@ a:hover {
   height: 31px;
 }
 
-S/* ---------- segunda seção (letterboxd + goodreads) ---------- */
+/* ---------- segunda seção (letterboxd + goodreads) ---------- */
 .segunda-home-columns {
   display: flex;
   gap: 24px;
