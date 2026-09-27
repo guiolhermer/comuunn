@@ -315,6 +315,8 @@ a:hover {
   min-width: 0;
   max-width: 100%;
   box-sizing: border-box;
+  padding-left: 45px;
+  overflow-y: auto;
 }
 
 .coluna-goodreads {
