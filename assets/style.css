@@ -381,6 +381,9 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.terceira-home-columns .home-column {
+  flex: 1; /* Distribui o espaço igualmente entre o blog e a galeria */
+}
 
 .blog-box-home {
   padding-top: 10px;
@@ -419,6 +422,35 @@ a:hover {
 .item-post-home {
   padding: 20px;
   margin-left: 30px;
+}
+
+/* Grid de Miniaturas de Fotos */
+.photo-thumbnails-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1r));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.thumb-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Garante que as miniaturas fiquem quadradas */
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.thumb-item img:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+/* Responsividade para telas menores (celulares) */
+@media (max-width: 768px) {
+  .terceira-home-columns {
+    flex-direction: column;
+  }
 }
 
 /* ---------- galeria (fotos) ---------- */
