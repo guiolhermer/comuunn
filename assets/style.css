@@ -418,29 +418,18 @@ a:hover {
 /* ---------- terceira seção (blog na home) ---------- */
 .linha-divisoria-estrelhas {
   display: flex;
-  position: relative;
+  justify-content: space-between; /* espalha as 10 estrelas de ponta a ponta */
+  align-items: center;
   width: 100%;
+  position: relative;
+  margin-bottom: -14px; /* faz sobrepor levemente o que vem embaixo */
+  z-index: 2;
 }
 
-.blue-glitter-star1, 
-.blue-glitter-star2,
-.blue-glitter-star3, 
-.blue-glitter-star4, 
-.blue-glitter-star5, 
-.blue-glitter-star6, 
-.blue-glitter-star7, 
-.blue-glitter-star8, 
-.blue-glitter-star9, 
-.blue-glitter-star10 {
-  display: flex;
-  position: sticky;
-  flex-direction: row;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  display: inline-block;
+.estrela-azul-brilhante {
+  width: 10px; /* era o tamanho nativo do gif (bem maior) — ajuste esse número */
+  height: auto;
+  display: block;
 }
 
 .terceira-home-columns {
