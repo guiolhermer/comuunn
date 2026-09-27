@@ -304,15 +304,14 @@ a:hover {
   max-height: 500px;
   box-sizing: border-box;
   padding-left: 45px;
+  overflow-y: auto;
 }
 
 #letterboxd-embed-wrapper-tc {
   margin-top: 10px;
   width: 100%;
   max-width: 100%;
-  max-height: 100%;
   box-sizing: border-box;
-  overflow-y: auto;
 }
 
 .letterboxd-embed-tc-divider {
